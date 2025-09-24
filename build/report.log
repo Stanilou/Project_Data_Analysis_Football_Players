@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.17)  24 SEP 2025 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.17)  24 SEP 2025 15:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -515,7 +515,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip83
 )
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 16.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 49.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 51.
  (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -525,40 +525,40 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Info: Redefining \degres on input line 49.
-LaTeX Info: Redefining \up on input line 49.
-LaTeX Info: Redefining \microtypecontext on input line 49.
-Package microtype Info: Applying patch `item' on input line 49.
-Package microtype Info: Applying patch `toc' on input line 49.
-Package microtype Info: Applying patch `eqnum' on input line 49.
-Package microtype Info: Applying patch `footnote' on input line 49.
-Package microtype Info: Applying patch `verbatim' on input line 49.
-LaTeX Info: Redefining \microtypesetup on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Info: Redefining \degres on input line 51.
+LaTeX Info: Redefining \up on input line 51.
+LaTeX Info: Redefining \microtypecontext on input line 51.
+Package microtype Info: Applying patch `item' on input line 51.
+Package microtype Info: Applying patch `toc' on input line 51.
+Package microtype Info: Applying patch `eqnum' on input line 51.
+Package microtype Info: Applying patch `footnote' on input line 51.
+Package microtype Info: Applying patch `verbatim' on input line 51.
+LaTeX Info: Redefining \microtypesetup on input line 51.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 49.
+LaTeX Info: Redefining \showhyphens on input line 51.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -617,7 +617,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 51.
 (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.out) (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
@@ -629,14 +629,14 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 49.
+(scrartcl)           before \begin{document} on input line 51.
  (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count316
 ))
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 52.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 54.
  (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -644,35 +644,35 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 52.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 54.
  (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 52.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 54.
  (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 52.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 54.
  (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 52.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 54.
  (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 52.
+(Font)              <14.4> on input line 54.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 52.
+(Font)              <10> on input line 54.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 52.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
+(Font)              <7> on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
  (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
  (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
@@ -683,9 +683,9 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input line 52.
+(scrartcl)              This could result in several error messages on input line 54.
 
-Package tocbasic Info: character protrusion at toc deactivated on input line 52.
+Package tocbasic Info: character protrusion at toc deactivated on input line 54.
 (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 4.
@@ -703,6 +703,16 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 {C:/Users/utilisateur/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
@@ -717,15 +727,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 110.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 110.
-
-<images/exemple_entree.png, id=30, 663.22781pt x 36.135pt>
+<images/exemple_entree.png, id=28, 663.22781pt x 36.135pt>
 File: images/exemple_entree.png Graphic file (type png)
 <use images/exemple_entree.png>
 Package pdftex.def Info: images/exemple_entree.png  used on input line 114.
@@ -733,14 +735,24 @@ Package pdftex.def Info: images/exemple_entree.png  used on input line 114.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
+<C:/Users/utilisateur/Pictures/Screenshots/Jeux/Valorant/ah.png, id=30, 302.63063pt x 123.46124pt>
+File: C:/Users/utilisateur/Pictures/Screenshots/Jeux/Valorant/ah.png Graphic file (type png)
+<use C:/Users/utilisateur/Pictures/Screenshots/Jeux/Valorant/ah.png>
+Package pdftex.def Info: C:/Users/utilisateur/Pictures/Screenshots/Jeux/Valorant/ah.png  used on input line 128.
+(pdftex.def)             Requested size: 483.69693pt x 197.331pt.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 128--129
+[][] 
+ []
 
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 115.
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 129.
 (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+) [2{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./images/exemple_entree.png>]
 
-[3 <./images/exemple_entree.png>] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.aux)
+[3 <C:/Users/utilisateur/Pictures/Screenshots/Jeux/Valorant/ah.png>] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -749,17 +761,17 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18652 strings out of 473523
- 330375 string characters out of 5711726
- 925917 words of memory out of 5000000
- 41521 multiletter control sequences out of 15000+600000
- 625892 words of font info for 128 fonts, out of 8000000 for 9000
+ 18656 strings out of 473523
+ 330828 string characters out of 5711726
+ 924917 words of memory out of 5000000
+ 41527 multiletter control sequences out of 15000+600000
+ 625798 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,107p,10988b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,12n,107p,10988b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.pdf" (3 pages, 194498 bytes).
+Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.pdf" (3 pages, 213681 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
- 41030 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 41035 words of extra memory for PDF output out of 42996 (max. 10000000)
 
