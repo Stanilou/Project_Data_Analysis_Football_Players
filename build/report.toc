@@ -3,8 +3,18 @@
 \contentsline {section}{\nonumberline Présentation du jeu de données}{2}{section*.5}%
 \contentsline {subsection}{\nonumberline Description du jeu de données}{2}{subsection*.7}%
 \contentsline {subsection}{\nonumberline Exemple d'une entrée du jeu de données}{2}{subsection*.9}%
-\contentsline {section}{\nonumberline Les techniques d'analyse de données}{3}{section*.11}%
-\contentsline {subsection}{\nonumberline Analyse quantitative des données : l'ACP}{3}{subsection*.13}%
-\contentsline {subsection}{\nonumberline Analyse catégorielle / qualitative des données : la CAH}{3}{subsection*.15}%
-\contentsline {section}{\nonumberline Conclusion}{3}{section*.17}%
+\contentsline {section}{\nonumberline Présentation des techniques d'analyse de données}{3}{section*.11}%
+\contentsline {section}{\nonumberline Analyse quantitative des données : l'ACP}{3}{section*.13}%
+\contentsline {subsection}{\nonumberline Définition}{3}{subsection*.15}%
+\contentsline {subsection}{\nonumberline Cercle de corrélation}{3}{subsection*.17}%
+\contentsline {subsubsection}{\nonumberline Définition}{3}{subsubsection*.19}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{4}{subsubsection*.21}%
+\contentsline {subsection}{\nonumberline Graphique des individus}{4}{subsection*.23}%
+\contentsline {subsubsection}{\nonumberline Définition}{4}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{4}{subsubsection*.27}%
+\contentsline {subsection}{\nonumberline Valeurs propres}{5}{subsection*.29}%
+\contentsline {subsubsection}{\nonumberline Définition}{5}{subsubsection*.31}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{5}{subsubsection*.33}%
+\contentsline {subsection}{\nonumberline Analyse catégorielle / qualitative des données}{5}{subsection*.35}%
+\contentsline {section}{\nonumberline Conclusion}{5}{section*.37}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
