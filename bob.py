@@ -76,12 +76,59 @@ pca_df = pd.DataFrame({
     "Comp": data.loc[data_quantitative.index, "Comp"]
 })
 
-plt.figure(figsize=(12, 8))
+plt.figure(figsize=(14, 10))
 plt.scatter(pca_df["Dim1"], pca_df["Dim2"], alpha=0.6)
+
+for i, (x, y, player) in enumerate(zip(pca_df["Dim1"], pca_df["Dim2"], pca_df["Player"])):
+    plt.annotate(player, (x, y), xytext=(5, 5), textcoords='offset points', fontsize=6, alpha=0.7)
+
 plt.xlabel("Dimension 1 ({:.1f}%)".format(pca.explained_variance_ratio_[0] * 100))
 plt.ylabel("Dimension 2 ({:.1f}%)".format(pca.explained_variance_ratio_[1] * 100))
-plt.title("Graphique des individus - Premier plan factoriel")
+plt.title("Graphique des individus - Premier plan factoriel (avec noms des joueurs)")
 plt.grid(alpha=0.3)
+plt.show()
+
+# 8. Graphique des individus coloré par position
+plt.figure(figsize=(14, 10))
+
+palette = plt.get_cmap("Set1")
+positions = pca_df["Pos"].unique()
+couleurs = dict(zip(positions, palette(range(len(positions)))))
+
+for pos in positions:
+    mask = pca_df["Pos"] == pos
+    plt.scatter(pca_df[mask]["Dim1"], pca_df[mask]["Dim2"], c=[couleurs[pos]], label=pos, alpha=0.7)
+
+for i, (x, y, player) in enumerate(zip(pca_df["Dim1"], pca_df["Dim2"], pca_df["Player"])):
+    plt.annotate(player, (x, y), xytext=(5, 5), textcoords='offset points', fontsize=6, alpha=0.7)
+
+plt.xlabel("Dimension 1 ({:.1f}%)".format(pca.explained_variance_ratio_[0] * 100))
+plt.ylabel("Dimension 2 ({:.1f}%)".format(pca.explained_variance_ratio_[1] * 100))
+plt.title("Graphique des individus coloré par position (avec noms des joueurs)")
+plt.legend()
+plt.grid(alpha=0.3)
+plt.show()
+
+# Graphique des individus coloré par championnat
+plt.figure(figsize=(14, 10))
+
+palette2 = plt.get_cmap("Dark2")
+compétitions = pca_df["Comp"].unique()
+couleurs_comp = dict(zip(compétitions, palette2(range(len(compétitions)))))
+
+for comp in compétitions:
+    mask = pca_df["Comp"] == comp
+    plt.scatter(pca_df[mask]["Dim1"], pca_df[mask]["Dim2"], c=[couleurs_comp[comp]], label=comp, alpha=0.7)
+
+for i, (x, y, player) in enumerate(zip(pca_df["Dim1"], pca_df["Dim2"], pca_df["Player"])):
+    plt.annotate(player, (x, y), xytext=(5, 5), textcoords='offset points', fontsize=6, alpha=0.7)
+
+plt.xlabel("Dimension 1 ({:.1f}%)".format(pca.explained_variance_ratio_[0] * 100))
+plt.ylabel("Dimension 2 ({:.1f}%)".format(pca.explained_variance_ratio_[1] * 100))
+plt.title("Graphique des individus coloré par championnat (avec noms des joueurs)")
+plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.grid(alpha=0.3)
+plt.tight_layout()
 plt.show()
 
 # AFC
