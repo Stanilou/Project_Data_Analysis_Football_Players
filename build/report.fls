@@ -262,10 +262,10 @@ INPUT C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfon
 OUTPUT c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.toc
 INPUT C:\Users\utilisateur\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
-INPUT C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
 INPUT C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss12.tfm
 INPUT C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
+INPUT C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
 INPUT .\images\exemple_entree.png
 INPUT .\images\exemple_entree.png
 INPUT .\images\exemple_entree.png
@@ -274,6 +274,13 @@ INPUT .\images\exemple_entree.png
 INPUT .\images\exemple_entree.png
 INPUT .\images\exemple_entree.png
 INPUT C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmcsc10.tfm
+INPUT C:\Users\utilisateur\Pictures\Screenshots\Jeux\Valorant\ah.png
+INPUT C:\Users\utilisateur\Pictures\Screenshots\Jeux\Valorant\ah.png
+INPUT C:\Users\utilisateur\Pictures\Screenshots\Jeux\Valorant\ah.png
+INPUT C:\Users\utilisateur\Pictures\Screenshots\Jeux\Valorant\ah.png
+INPUT C:\Users\utilisateur\Pictures\Screenshots\Jeux\Valorant\ah.png
+INPUT C:\Users\utilisateur\Pictures\Screenshots\Jeux\Valorant\ah.png
+INPUT C:\Users\utilisateur\Pictures\Screenshots\Jeux\Valorant\ah.png
 INPUT C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr9.tfm
 INPUT C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
