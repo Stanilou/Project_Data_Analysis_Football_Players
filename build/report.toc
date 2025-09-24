@@ -1,0 +1,10 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\nonumberline Introduction}{2}{section*.3}%
+\contentsline {section}{\nonumberline Présentation du jeu de données}{2}{section*.5}%
+\contentsline {subsection}{\nonumberline Description du jeu de données}{2}{subsection*.7}%
+\contentsline {subsection}{\nonumberline \\Exemple d'une entrée du jeu de données\\}{3}{subsection*.9}%
+\contentsline {section}{\nonumberline Les techniques d'analyse de données}{3}{section*.11}%
+\contentsline {subsection}{\nonumberline Analyse quantitative des données : l'ACP}{3}{subsection*.13}%
+\contentsline {subsection}{\nonumberline Analyse catégorielle / qualitative des données : la CAH}{3}{subsection*.15}%
+\contentsline {section}{\nonumberline Conclusion}{3}{section*.17}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
