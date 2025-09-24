@@ -85,6 +85,7 @@ plt.grid(alpha=0.3)
 plt.show()
 
 # AFC
+"""
 data_crosstab = pd.crosstab(data_quantitative["Age"], data_quantitative["Gls"])
 
 temp = data_crosstab.sub(data_crosstab.mean())
@@ -102,3 +103,4 @@ plt.xlabel("Factors")
 plt.ylabel("Eigenvalue")
 plt.grid()
 plt.show()
+"""
