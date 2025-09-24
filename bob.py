@@ -1,66 +1,104 @@
-# Import required libraries
 import pandas as pd 
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
+from factor_analyzer import FactorAnalyzer
 
-# Read and prepare the data
 data = pd.read_csv("cleaned_football_dataset.csv")
 
-# Select numerical columns for PCA (excluding ID, Player, Nation, Pos, Squad, Comp)
-numerical_columns = ['Age', 'MP', 'Starts', 'Min', '90s', 'Gls', 'Ast', 'G+A']
-X = data[numerical_columns]
+quantitative_vars = ['Age', 'MP', 'Starts', 'Min', '90s', 'Gls', 'Ast', 'G+A']
+data_quantitative = data[quantitative_vars].dropna()
 
-# Standardize the features
-X_scaled = StandardScaler().fit_transform(X)
-X_scaled = pd.DataFrame(X_scaled, columns=numerical_columns)
+# Scaler
+scaler = StandardScaler()
+x_scaled = scaler.fit_transform(data_quantitative)
 
-# Perform PCA
-n_components = 6  # We'll keep 6 components to analyze variance explained
-pca = PCA(n_components=n_components)
-pca_result = pca.fit_transform(X_scaled)
+# ACP
+pca = PCA()
+pca_res = pca.fit_transform(x_scaled)
 
-# Create DataFrame with eigenvalues summary
 eig = pd.DataFrame({
-    "Dimension": [f"Dim{x+1}" for x in range(n_components)],
+    "Dimension": ["Dim" + str(x + 1) for x in range(len(pca.explained_variance_))],
     "Valeur propre": pca.explained_variance_,
     "% valeur propre": np.round(pca.explained_variance_ratio_ * 100, 2),
     "% cum. val. prop.": np.round(np.cumsum(pca.explained_variance_ratio_) * 100, 2)
 })
 
-print("Eigenvalues Summary:")
+print("Tableau des valeurs propres:")
 print(eig)
 
-# Plot scree plot (variance explained by each component)
 plt.figure(figsize=(10, 6))
-plt.bar(range(1, n_components + 1), pca.explained_variance_ratio_)
-plt.xlabel('Principal Component')
-plt.ylabel('Proportion of Variance Explained')
-plt.title('Scree Plot')
+y1 = list(pca.explained_variance_ratio_ * 100)
+x1 = range(1, len(y1) + 1)
+plt.bar(x1, y1)
+plt.xlabel('Dimensions')
+plt.ylabel('Pourcentage de variance expliquée (%)')
+plt.title('Valeurs propres de l\'ACP')
+plt.xticks(x1)
+plt.grid(axis='y', alpha=0.3)
 plt.show()
 
-# Function for biplot
-def biplot(score, coeff, coeff_labels=None):
+# Cercle de corrélation
+def biplot(score, coeff, labels=None, density=False):
     plt.figure(figsize=(10, 8))
-    xs = score[:,0]
-    ys = score[:,1]
+    xs = score[:, 0]
+    ys = score[:, 1]
     n = coeff.shape[0]
-    
-    plt.scatter(xs, ys, c='b', alpha=0.5)
+    scalex = 1.0 / (xs.max() - xs.min())
+    scaley = 1.0 / (ys.max() - ys.min())
     
     for i in range(n):
-        plt.arrow(0, 0, coeff[i,0], coeff[i,1], color='r', alpha=0.5)
-        if coeff_labels is not None:
-            plt.text(coeff[i,0]*1.15, coeff[i,1]*1.15, coeff_labels[i], color='g')
+        plt.arrow(0, 0, coeff[i, 0], coeff[i, 1], color='r', alpha=0.8, head_width=0.02)
+        if labels is None:
+            plt.text(coeff[i, 0] * 1.15, coeff[i, 1] * 1.15, "Var" + str(i + 1), color='r', ha='center', va='center')
+        else:
+            plt.text(coeff[i, 0] * 1.15, coeff[i, 1] * 1.15, labels[i], color='r', ha='center', va='center', fontsize=9)
     
-    plt.xlabel('PC1')
-    plt.ylabel('PC2')
-    plt.grid()
-    
-# Create biplot with variable names
-biplot(pca_result[:,:2], 
-       pca.components_.T[:,:2],
-       coeff_labels=numerical_columns)
-plt.title('PCA Biplot')
+    plt.xlim(-1, 1)
+    plt.ylim(-1, 1)
+    plt.xlabel("Dimension 1 ({:.1f}%)".format(pca.explained_variance_ratio_[0] * 100))
+    plt.ylabel("Dimension 2 ({:.1f}%)".format(pca.explained_variance_ratio_[1] * 100))
+    plt.grid(alpha=0.3)
+    plt.title('Graphique des variables (ACP)')
+
+coeff_labels = list(data_quantitative.columns)
+biplot(pca_res[:, 0:2], np.transpose(pca.components_[0:2, :]), labels=coeff_labels)
+plt.show()
+
+# Graphique des individus
+pca_df = pd.DataFrame({
+    "Dim1": pca_res[:, 0],
+    "Dim2": pca_res[:, 1],
+    "Player": data.loc[data_quantitative.index, "Player"],
+    "Pos": data.loc[data_quantitative.index, "Pos"],
+    "Comp": data.loc[data_quantitative.index, "Comp"]
+})
+
+plt.figure(figsize=(12, 8))
+plt.scatter(pca_df["Dim1"], pca_df["Dim2"], alpha=0.6)
+plt.xlabel("Dimension 1 ({:.1f}%)".format(pca.explained_variance_ratio_[0] * 100))
+plt.ylabel("Dimension 2 ({:.1f}%)".format(pca.explained_variance_ratio_[1] * 100))
+plt.title("Graphique des individus - Premier plan factoriel")
+plt.grid(alpha=0.3)
+plt.show()
+
+# AFC
+data_crosstab = pd.crosstab(data_quantitative["Age"], data_quantitative["Gls"])
+
+temp = data_crosstab.sub(data_crosstab.mean())
+data_scaled = temp.div(data_crosstab.std())
+
+fa = FactorAnalyzer(n_factors = 6, rotation = None)
+fa.fit(data_scaled)
+ev, v = fa.get_eigenvalues()
+print(ev)
+
+plt.scatter(range(1, data_scaled.shape[1] + 1 ), ev)
+plt.plot(range(1, data_scaled.shape[1] + 1), ev )
+plt.title("Scree Plot")
+plt.xlabel("Factors")
+plt.ylabel("Eigenvalue")
+plt.grid()
 plt.show()

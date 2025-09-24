@@ -57,15 +57,12 @@ pca_df = pd.DataFrame ({
     ”goodanswer”: df[”goodanswer”]
 })
 pca_df.plot.scatter(”Dim1”, ”Dim2”)
-plt.xla b e l ( ” Dimension 1 (%)”)
-p l t . y l a b e l ( ” Dimension 2 ( %)”)
-p l t . s u p t i t l e ( ” Premier pl an f a c t o r i e l (%)”)
-p l t . show ( )
-Dans un second temps vous g´en´ererez un graphique en colorant les individus
-d’apr`es une de vos variables cat´egorielles. Dans l’exemple suivant j’utilise ma
-variable cat´egorielle “goodanswer”. Vous commencerez par cr´eer une palette de
-couleur bas´ee sur Color Brewer.
-p a l e t t e = p l t . get cmap ( ” Dark2 ” )
+plt.xlabel(”Dimension 1 (%)”)
+plt.ylabel(”Dimension 2 (%)”)
+plt.suptitle(”Premier plan factoriel(%)”)
+plt.show()
+Dans un second temps vous générerez un graphique en colorant les individus d’après une de vos variables catégorielles. Dans l’exemple suivant j’utilise ma variable catégorielle “goodanswer”. Vous commencerez par créer une palette de couleur basée sur Color Brewer.
+palette = plt.get_cmap(” Dark2 ”)
 c o ul e u r s = d i c t ( zi p ( p c a d f [ ” goodanswer ” ] . d r o p d u p l i c a t e s ( ) ,
 p a l e t t e ( r an ge ( 1 0 ) ) ) )
 p o s i t i o n = d i c t ( zi p ( c o ul e u r s . key s ( ) , r an ge ( 1 0 ) ) )
