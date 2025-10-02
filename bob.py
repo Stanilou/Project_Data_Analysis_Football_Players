@@ -91,9 +91,15 @@ plt.show()
 # 8. Graphique des individus coloré par position
 plt.figure(figsize=(14, 10))
 
-palette = plt.get_cmap("Set1")
+couleurs = {
+    'FW': '#ff0000',
+    'FW,MF': '#ff7700',
+    'MF': '#ffaa00',
+    'DF,MF': '#0077ff',
+    'DF': '#0000ff'
+}
+
 positions = pca_df["Pos"].unique()
-couleurs = dict(zip(positions, palette(range(len(positions)))))
 
 for pos in positions:
     mask = pca_df["Pos"] == pos
@@ -132,9 +138,9 @@ plt.tight_layout()
 plt.show()
 
 # AFC
-"""
-data_crosstab = pd.crosstab(data_quantitative["Age"], data_quantitative["Gls"])
 
+data_crosstab = pd.crosstab(data_quantitative["Age"], data_quantitative["Gls"])
+"""
 temp = data_crosstab.sub(data_crosstab.mean())
 data_scaled = temp.div(data_crosstab.std())
 

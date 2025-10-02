@@ -103,7 +103,7 @@ Id,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G+A
 102,Amad Diallo,ci CIV,"MF,FW",Manchester Utd,eng Premier League,22.0,2002,26,20,1901,21.1,8,6,14
 103,Artem Dovbyk,ua UKR,FW,Roma,it Serie A,27.0,1997,32,27,2418,26.9,12,2,14
 104,Cody Gakpo,nl NED,FW,Liverpool,eng Premier League,25.0,1999,35,23,1935,21.5,10,4,14
-105,Luis Henrique,br BRA,"DF,FW",Marseille,fr Ligue 1,22.0,2001,33,29,2613,29.0,7,7,14
+105,Luis Henrique,br BRA,"DF",Marseille,fr Ligue 1,22.0,2001,33,29,2613,29.0,7,7,14
 106,Borja Iglesias,es ESP,FW,Celta Vigo,es La Liga,31.0,1993,37,24,1952,21.7,11,3,14
 107,Brennan Johnson,wls WAL,FW,Tottenham,eng Premier League,23.0,2001,33,24,2177,24.2,11,3,14
 108,Kaoru Mitoma,jp JPN,"FW,MF",Brighton,eng Premier League,27.0,1997,36,28,2603,28.9,10,4,14
@@ -170,7 +170,7 @@ Id,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G+A
 169,Jonathan Clauss,fr FRA,"DF,MF",Nice,fr Ligue 1,31.0,1992,28,27,2303,25.6,3,8,11
 170,Patrick Cutrone,it ITA,FW,Como,it Serie A,26.0,1998,33,23,2047,22.7,7,4,11
 171,Kevin De Bruyne,be BEL,"MF,FW",Manchester City,eng Premier League,33.0,1991,28,19,1702,18.9,4,7,11
-172,Federico Dimarco,it ITA,"DF,FW",Inter,it Serie A,26.0,1997,32,28,2140,23.8,4,7,11
+172,Federico Dimarco,it ITA,"DF",Inter,it Serie A,26.0,1997,32,28,2140,23.8,4,7,11
 173,Evanilson,br BRA,FW,Bournemouth,eng Premier League,24.0,1999,31,28,2319,25.8,10,1,11
 174,Jamie Gittens,eng ENG,"FW,MF",Dortmund,de Bundesliga,19.0,2004,32,21,1776,19.7,8,3,11
 175,Anthony Gordon,eng ENG,"FW,MF",Newcastle Utd,eng Premier League,23.0,2001,34,28,2434,27.0,6,5,11

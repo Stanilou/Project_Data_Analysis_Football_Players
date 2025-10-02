@@ -19,31 +19,31 @@ Id,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G+A
 18,Ollie Watkins,eng ENG,FW,Aston Villa,Premier League,28.0,1995,38,31,2598,28.9,16,8,24
 19,Hugo Ekitike,fr FRA,FW,Eint Frankfurt,Bundesliga,22.0,2002,33,31,2563,28.5,15,8,23
 20,Tim Kleindienst,de GER,FW,Gladbach,Bundesliga,28.0,1995,31,31,2737,30.4,16,7,23
-21,Cole Palmer,eng ENG,"MF,FW",Chelsea,Premier League,22.0,2002,37,36,3191,35.5,15,8,23
+21,Cole Palmer,eng ENG,"FW,MF",Chelsea,Premier League,22.0,2002,37,36,3191,35.5,15,8,23
 22,Yoane Wissa,cd COD,FW,Brentford,Premier League,27.0,1996,35,34,2919,32.4,19,4,23
 23,Chris Wood,nz NZL,FW,Nott'ham Forest,Premier League,32.0,1991,36,35,2959,32.9,20,3,23
 24,Alexander Sørloth,no NOR,FW,Atlético Madrid,La Liga,28.0,1995,35,15,1566,17.4,20,2,22
-25,Florian Wirtz,de GER,"MF,FW",Leverkusen,Bundesliga,21.0,2003,31,25,2351,26.1,10,12,22
+25,Florian Wirtz,de GER,"FW,MF",Leverkusen,Bundesliga,21.0,2003,31,25,2351,26.1,10,12,22
 26,Lamine Yamal,es ESP,FW,Barcelona,La Liga,17.0,2007,35,31,2856,31.7,9,13,22
 27,Julián Álvarez,ar ARG,FW,Atlético Madrid,La Liga,24.0,2000,37,30,2509,27.9,17,4,21
 28,Jarrod Bowen,eng ENG,"FW,MF",West Ham,Premier League,27.0,1996,34,34,2973,33.0,13,8,21
-29,Matheus Cunha,br BRA,"MF,FW",Wolves,Premier League,25.0,1999,33,29,2597,28.9,15,6,21
+29,Matheus Cunha,br BRA,"FW,MF",Wolves,Premier League,25.0,1999,33,29,2597,28.9,15,6,21
 30,Jonathan David,ca CAN,FW,Lille,Ligue 1,24.0,2000,32,28,2554,28.4,16,5,21
 31,Ayoze Pérez,es ESP,FW,Villarreal,La Liga,31.0,1993,30,22,1970,21.9,19,2,21
-32,Gaëtan Perrin,fr FRA,"MF,FW",Auxerre,Ligue 1,28.0,1996,34,31,2691,29.9,10,11,21
+32,Gaëtan Perrin,fr FRA,"FW,MF",Auxerre,Ligue 1,28.0,1996,34,31,2691,29.9,10,11,21
 33,Patrik Schick,cz CZE,FW,Leverkusen,Bundesliga,28.0,1996,31,19,1684,18.7,21,0,21
 34,Jonathan Burkardt,de GER,FW,Mainz 05,Bundesliga,24.0,2000,29,28,2109,23.4,18,2,20
 35,Evann Guessand,ci CIV,"FW,MF",Nice,Ligue 1,23.0,2001,33,30,2565,28.5,12,8,20
 36,Arnaud Kalimuendo,fr FRA,"FW,MF",Rennes,Ligue 1,22.0,2002,33,31,2578,28.6,17,3,20
 37,Moise Kean,it ITA,FW,Fiorentina,Serie A,24.0,2000,31,30,2615,29.1,17,3,20
-38,Ademola Lookman,ng NGA,"MF,FW",Atalanta,Serie A,26.0,1997,31,28,2247,25.0,15,5,20
+38,Ademola Lookman,ng NGA,"FW,MF",Atalanta,Serie A,26.0,1997,31,28,2247,25.0,15,5,20
 39,Jacob Murphy,eng ENG,FW,Newcastle Utd,Premier League,29.0,1995,35,31,2360,26.2,8,12,20
 40,Christian Pulisic,us USA,"FW,MF",Milan,Serie A,25.0,1998,34,29,2478,27.5,11,9,20
 41,Mohamed Amoura,dz ALG,FW,Wolfsburg,Bundesliga,24.0,2000,31,29,2467,27.4,10,9,19
 42,Rayan Cherki,fr FRA,"FW,MF",Lyon,Ligue 1,20.0,2003,30,22,2041,22.7,8,11,19
 43,Vincenzo Grifo,it ITA,"FW,MF",Freiburg,Bundesliga,31.0,1993,34,31,2432,27.0,8,11,19
 44,Vinicius Júnior,br BRA,FW,Real Madrid,La Liga,24.0,2000,30,24,2253,25.0,11,8,19
-45,Andrej Kramarić,hr CRO,"MF,FW",Hoffenheim,Bundesliga,33.0,1991,32,32,2767,30.7,11,8,19
+45,Andrej Kramarić,hr CRO,"FW,MF",Hoffenheim,Bundesliga,33.0,1991,32,32,2767,30.7,11,8,19
 46,Riccardo Orsolini,it ITA,FW,Bologna,Serie A,27.0,1997,30,23,1878,20.9,15,4,19
 47,Luis Díaz,co COL,FW,Liverpool,Premier League,27.0,1997,36,28,2399,26.7,13,5,18
 48,Bruno Fernandes,pt POR,MF,Manchester Utd,Premier League,29.0,1994,36,35,3018,33.5,8,10,18
@@ -61,10 +61,10 @@ Id,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G+A
 60,Isco,es ESP,MF,Betis,La Liga,32.0,1992,22,17,1547,17.2,9,8,17
 61,Alexandre Lacazette,fr FRA,FW,Lyon,Ligue 1,33.0,1991,30,24,2051,22.8,15,2,17
 62,Georges Mikautadze,ge GEO,FW,Lyon,Ligue 1,23.0,2000,34,13,1449,16.1,11,6,17
-63,Alex Baena,es ESP,"MF,FW",Villarreal,La Liga,23.0,2001,32,30,2595,28.8,7,9,16
+63,Alex Baena,es ESP,"FW,MF",Villarreal,La Liga,23.0,2001,32,30,2595,28.8,7,9,16
 64,Ermedin Demirović,ba BIH,FW,Stuttgart,Bundesliga,26.0,1998,34,20,1855,20.6,15,1,16
 65,Marvin Ducksch,de GER,FW,Werder Bremen,Bundesliga,30.0,1994,32,30,2418,26.9,8,8,16
-66,Eberechi Eze,eng ENG,"MF,FW",Crystal Palace,Premier League,26.0,1998,34,31,2588,28.8,8,8,16
+66,Eberechi Eze,eng ENG,"FW,MF",Crystal Palace,Premier League,26.0,1998,34,31,2588,28.8,8,8,16
 67,Son Heung-min,kr KOR,FW,Tottenham,Premier League,32.0,1992,30,24,2110,23.4,7,9,16
 68,João Pedro,br BRA,"FW,MF",Brighton,Premier League,22.0,2001,27,23,1948,21.6,10,6,16
 69,Nikola Krstović,me MNE,FW,Lecce,Serie A,24.0,2000,37,37,3057,34.0,11,5,16
@@ -93,24 +93,24 @@ Id,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G+A
 92,Raúl Jiménez,mx MEX,FW,Fulham,Premier League,33.0,1991,38,30,2494,27.7,12,3,15
 93,Gaëtan Laborde,fr FRA,FW,Nice,Ligue 1,30.0,1994,28,20,1829,20.3,11,4,15
 94,Lautaro Martínez,ar ARG,FW,Inter,Serie A,26.0,1997,30,30,2474,27.5,12,3,15
-95,Alassane Pléa,fr FRA,"MF,FW",Gladbach,Bundesliga,31.0,1993,30,24,1902,21.1,11,4,15
+95,Alassane Pléa,fr FRA,"FW,MF",Gladbach,Bundesliga,31.0,1993,30,24,1902,21.1,11,4,15
 96,Jens Stage,dk DEN,MF,Werder Bremen,Bundesliga,27.0,1996,28,26,2204,24.5,10,5,15
 97,Leandro Trossard,be BEL,FW,Arsenal,Premier League,29.0,1994,38,28,2546,28.3,8,7,15
-98,Dilane Bakwa,fr FRA,"MF,DF",Strasbourg,Ligue 1,21.0,2002,30,29,2497,27.7,6,8,14
-99,Ludovic Blas,fr FRA,"MF,FW",Rennes,Ligue 1,26.0,1997,29,26,2293,25.5,6,8,14
-100,Charles De Ketelaere,be BEL,"MF,FW",Atalanta,Serie A,23.0,2001,36,25,2070,23.0,7,7,14
+98,Dilane Bakwa,fr FRA,"DF,MF",Strasbourg,Ligue 1,21.0,2002,30,29,2497,27.7,6,8,14
+99,Ludovic Blas,fr FRA,"FW,MF",Rennes,Ligue 1,26.0,1997,29,26,2293,25.5,6,8,14
+100,Charles De Ketelaere,be BEL,"FW,MF",Atalanta,Serie A,23.0,2001,36,25,2070,23.0,7,7,14
 101,Liam Delap,eng ENG,FW,Ipswich Town,Premier League,21.0,2003,37,32,2593,28.8,12,2,14
-102,Amad Diallo,ci CIV,"MF,FW",Manchester Utd,Premier League,22.0,2002,26,20,1901,21.1,8,6,14
+102,Amad Diallo,ci CIV,"FW,MF",Manchester Utd,Premier League,22.0,2002,26,20,1901,21.1,8,6,14
 103,Artem Dovbyk,ua UKR,FW,Roma,Serie A,27.0,1997,32,27,2418,26.9,12,2,14
 104,Cody Gakpo,nl NED,FW,Liverpool,Premier League,25.0,1999,35,23,1935,21.5,10,4,14
-105,Luis Henrique,br BRA,"DF,FW",Marseille,Ligue 1,22.0,2001,33,29,2613,29.0,7,7,14
+105,Luis Henrique,br BRA,DF,Marseille,Ligue 1,22.0,2001,33,29,2613,29.0,7,7,14
 106,Borja Iglesias,es ESP,FW,Celta Vigo,La Liga,31.0,1993,37,24,1952,21.7,11,3,14
 107,Brennan Johnson,wls WAL,FW,Tottenham,Premier League,23.0,2001,33,24,2177,24.2,11,3,14
 108,Kaoru Mitoma,jp JPN,"FW,MF",Brighton,Premier League,27.0,1997,36,28,2603,28.9,10,4,14
 109,Jamal Musiala,de GER,MF,Bayern Munich,Bundesliga,21.0,2003,25,21,1798,20.0,12,2,14
 110,Paul Nebel,de GER,MF,Mainz 05,Bundesliga,21.0,2002,31,26,2345,26.1,10,4,14
 111,Loïs Openda,be BEL,"FW,MF",RB Leipzig,Bundesliga,24.0,2000,33,28,2453,27.3,9,5,14
-112,Nicolás Paz,ar ARG,"MF,FW",Como,Serie A,19.0,2004,35,30,2687,29.9,6,8,14
+112,Nicolás Paz,ar ARG,"FW,MF",Como,Serie A,19.0,2004,35,30,2687,29.9,6,8,14
 113,Dani Raba,es ESP,"FW,MF",Leganés,La Liga,28.0,1995,29,24,1879,20.9,8,6,14
 114,Tijjani Reijnders,nl NED,MF,Milan,Serie A,26.0,1998,37,36,3128,34.8,10,4,14
 115,Ismaila Sarr,sn SEN,MF,Crystal Palace,Premier League,26.0,1998,38,30,2711,30.1,8,6,14
@@ -130,12 +130,12 @@ Id,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G+A
 129,Amine Gouiri,dz ALG,"FW,MF",Marseille,Ligue 1,24.0,2000,14,12,1048,11.6,10,3,13
 130,Lee Jae-sung,kr KOR,MF,Mainz 05,Bundesliga,31.0,1992,33,31,2650,29.4,7,6,13
 131,Kiké,es ESP,FW,Alavés,La Liga,34.0,1989,35,29,2542,28.2,13,0,13
-132,Diego López,es ESP,"MF,FW",Valencia,La Liga,22.0,2002,38,35,2737,30.4,8,5,13
+132,Diego López,es ESP,"FW,MF",Valencia,La Liga,22.0,2002,38,35,2737,30.4,8,5,13
 133,Lorenzo Lucca,it ITA,FW,Udinese,Serie A,23.0,2000,33,27,2353,26.1,12,1,13
 134,Dodi Lukebakio,be BEL,FW,Sevilla,La Liga,26.0,1997,38,36,3092,34.4,11,2,13
 135,Shuto Machino,jp JPN,"FW,MF",Holstein Kiel,Bundesliga,24.0,1999,32,23,1953,21.7,11,2,13
 136,Keito Nakamura,jp JPN,"FW,MF",Reims,Ligue 1,24.0,2000,32,31,2649,29.4,11,2,13
-137,Dani Olmo,es ESP,"MF,FW",Barcelona,La Liga,26.0,1998,25,13,1212,13.5,10,3,13
+137,Dani Olmo,es ESP,"FW,MF",Barcelona,La Liga,26.0,1998,25,13,1212,13.5,10,3,13
 138,Adrien Rabiot,fr FRA,MF,Marseille,Ligue 1,29.0,1995,29,27,2485,27.6,9,4,13
 139,Gonçalo Ramos,pt POR,FW,Paris S-G,Ligue 1,23.0,2001,22,12,1066,11.8,10,3,13
 140,Andrey Santos,br BRA,MF,Strasbourg,Ligue 1,20.0,2004,32,32,2855,31.7,10,3,13
@@ -147,8 +147,8 @@ Id,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G+A
 146,Che Adams,sct SCO,FW,Torino,Serie A,28.0,1996,36,30,2652,29.5,9,3,12
 147,Nadiem Amiri,de GER,MF,Mainz 05,Bundesliga,27.0,1996,30,30,2473,27.5,7,5,12
 148,Santiago Castro,ar ARG,FW,Bologna,Serie A,19.0,2004,36,27,2294,25.5,8,4,12
-149,Mikkel Damsgaard,dk DEN,"MF,FW",Brentford,Premier League,24.0,2000,38,34,2911,32.3,2,10,12
-150,Boulaye Dia,sn SEN,"MF,FW",Lazio,Serie A,27.0,1996,35,27,2177,24.2,9,3,12
+149,Mikkel Damsgaard,dk DEN,"FW,MF",Brentford,Premier League,24.0,2000,38,34,2911,32.3,2,10,12
+150,Boulaye Dia,sn SEN,"FW,MF",Lazio,Serie A,27.0,1996,35,27,2177,24.2,9,3,12
 151,Désiré Doué,fr FRA,"FW,MF",Paris S-G,Ligue 1,19.0,2005,31,18,1730,19.2,6,6,12
 152,Serge Gnabry,de GER,"FW,MF",Bayern Munich,Bundesliga,29.0,1995,27,13,1242,13.8,7,5,12
 153,Kai Havertz,de GER,"FW,MF",Arsenal,Premier League,25.0,1999,23,21,1875,20.8,9,3,12
@@ -166,30 +166,30 @@ Id,Player,Nation,Pos,Squad,Comp,Age,Born,MP,Starts,Min,90s,Gls,Ast,G+A
 165,Matthis Abline,fr FRA,FW,Nantes,Ligue 1,21.0,2003,34,33,2768,30.8,9,2,11
 166,Rayan Aït-Nouri,dz ALG,DF,Wolves,Premier League,23.0,2001,37,37,3109,34.5,4,7,11
 167,Hakan Çalhanoğlu,tr TUR,MF,Inter,Serie A,30.0,1994,28,25,1879,20.9,5,6,11
-168,Alexis Claude-Maurice,fr FRA,"MF,FW",Augsburg,Bundesliga,26.0,1998,28,25,2109,23.4,9,2,11
+168,Alexis Claude-Maurice,fr FRA,"FW,MF",Augsburg,Bundesliga,26.0,1998,28,25,2109,23.4,9,2,11
 169,Jonathan Clauss,fr FRA,"DF,MF",Nice,Ligue 1,31.0,1992,28,27,2303,25.6,3,8,11
 170,Patrick Cutrone,it ITA,FW,Como,Serie A,26.0,1998,33,23,2047,22.7,7,4,11
-171,Kevin De Bruyne,be BEL,"MF,FW",Manchester City,Premier League,33.0,1991,28,19,1702,18.9,4,7,11
-172,Federico Dimarco,it ITA,"DF,FW",Inter,Serie A,26.0,1997,32,28,2140,23.8,4,7,11
+171,Kevin De Bruyne,be BEL,"FW,MF",Manchester City,Premier League,33.0,1991,28,19,1702,18.9,4,7,11
+172,Federico Dimarco,it ITA,DF,Inter,Serie A,26.0,1997,32,28,2140,23.8,4,7,11
 173,Evanilson,br BRA,FW,Bournemouth,Premier League,24.0,1999,31,28,2319,25.8,10,1,11
 174,Jamie Gittens,eng ENG,"FW,MF",Dortmund,Bundesliga,19.0,2004,32,21,1776,19.7,8,3,11
 175,Anthony Gordon,eng ENG,"FW,MF",Newcastle Utd,Premier League,23.0,2001,34,28,2434,27.0,6,5,11
 176,Bruno Guimarães,br BRA,MF,Newcastle Utd,Premier League,26.0,1997,38,38,3271,36.3,5,6,11
 177,Robin Hack,de GER,"FW,MF",Gladbach,Bundesliga,25.0,1998,33,27,2172,24.1,4,7,11
 178,Franck Honorat,fr FRA,FW,Gladbach,Bundesliga,27.0,1996,19,18,1439,16.0,4,7,11
-179,Dejan Kulusevski,se SWE,"MF,FW",Tottenham,Premier League,24.0,2000,32,27,2389,26.5,7,4,11
-180,Giovani Lo Celso,ar ARG,"MF,FW",Betis,La Liga,28.0,1996,25,15,1457,16.2,8,3,11
-181,Fermin López,es ESP,"MF,FW",Barcelona,La Liga,21.0,2003,28,12,1252,13.9,6,5,11
-182,Enzo Millot,fr FRA,"MF,FW",Stuttgart,Bundesliga,22.0,2002,29,22,1843,20.5,6,5,11
-183,João Neves,pt POR,"MF,DF",Paris S-G,Ligue 1,19.0,2004,29,22,1844,20.5,3,8,11
+179,Dejan Kulusevski,se SWE,"FW,MF",Tottenham,Premier League,24.0,2000,32,27,2389,26.5,7,4,11
+180,Giovani Lo Celso,ar ARG,"FW,MF",Betis,La Liga,28.0,1996,25,15,1457,16.2,8,3,11
+181,Fermin López,es ESP,"FW,MF",Barcelona,La Liga,21.0,2003,28,12,1252,13.9,6,5,11
+182,Enzo Millot,fr FRA,"FW,MF",Stuttgart,Bundesliga,22.0,2002,29,22,1843,20.5,6,5,11
+183,João Neves,pt POR,"DF,MF",Paris S-G,Ligue 1,19.0,2004,29,22,1844,20.5,3,8,11
 184,Dango Ouattara,bf BFA,FW,Bournemouth,Premier League,22.0,2002,32,21,2005,22.3,7,4,11
 185,Pedro,es ESP,"FW,MF",Lazio,Serie A,37.0,1987,30,6,1102,12.2,10,1,11
 186,Roberto Piccoli,it ITA,FW,Cagliari,Serie A,23.0,2001,37,37,3127,34.7,10,1,11
 187,Marvin Pieringer,de GER,"FW,MF",Heidenheim,Bundesliga,24.0,1999,31,26,2206,24.5,7,4,11
 188,Andrea Pinamonti,it ITA,FW,Genoa,Serie A,25.0,1999,36,33,2850,31.7,10,1,11
-189,Yeremi Pino,es ESP,"MF,FW",Villarreal,La Liga,21.0,2002,34,25,1934,21.5,4,7,11
+189,Yeremi Pino,es ESP,"FW,MF",Villarreal,La Liga,21.0,2002,34,25,1934,21.5,4,7,11
 190,Declan Rice,eng ENG,MF,Arsenal,Premier League,25.0,1999,35,33,2825,31.4,4,7,11
-191,Dani Rodríguez,es ESP,"MF,FW",Mallorca,La Liga,36.0,1988,37,26,2162,24.0,4,7,11
+191,Dani Rodríguez,es ESP,"FW,MF",Mallorca,La Liga,36.0,1988,37,26,2162,24.0,4,7,11
 192,Rodrygo,br BRA,"FW,MF",Real Madrid,La Liga,23.0,2001,30,22,1928,21.4,6,5,11
 193,Florian Thauvin,fr FRA,"FW,MF",Udinese,Serie A,31.0,1993,25,24,1956,21.7,8,3,11
 194,Corentin Tolisso,fr FRA,MF,Lyon,Ligue 1,29.0,1994,32,27,2329,25.9,7,4,11
