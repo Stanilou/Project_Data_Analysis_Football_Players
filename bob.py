@@ -84,7 +84,7 @@ for i, (x, y, player) in enumerate(zip(pca_df["Dim1"], pca_df["Dim2"], pca_df["P
 
 plt.xlabel("Dimension 1 ({:.1f}%)".format(pca.explained_variance_ratio_[0] * 100))
 plt.ylabel("Dimension 2 ({:.1f}%)".format(pca.explained_variance_ratio_[1] * 100))
-plt.title("Graphique des individus - Premier plan factoriel (avec noms des joueurs)")
+plt.title("Graphique des individus")
 plt.grid(alpha=0.3)
 plt.show()
 
@@ -110,7 +110,7 @@ for i, (x, y, player) in enumerate(zip(pca_df["Dim1"], pca_df["Dim2"], pca_df["P
 
 plt.xlabel("Dimension 1 ({:.1f}%)".format(pca.explained_variance_ratio_[0] * 100))
 plt.ylabel("Dimension 2 ({:.1f}%)".format(pca.explained_variance_ratio_[1] * 100))
-plt.title("Graphique des individus coloré par position (avec noms des joueurs)")
+plt.title("Graphique des individus coloré par position")
 plt.legend()
 plt.grid(alpha=0.3)
 plt.show()
@@ -131,7 +131,7 @@ for i, (x, y, player) in enumerate(zip(pca_df["Dim1"], pca_df["Dim2"], pca_df["P
 
 plt.xlabel("Dimension 1 ({:.1f}%)".format(pca.explained_variance_ratio_[0] * 100))
 plt.ylabel("Dimension 2 ({:.1f}%)".format(pca.explained_variance_ratio_[1] * 100))
-plt.title("Graphique des individus coloré par championnat (avec noms des joueurs)")
+plt.title("Graphique des individus coloré par championnat")
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.grid(alpha=0.3)
 plt.tight_layout()
@@ -140,10 +140,10 @@ plt.show()
 # AFC
 
 data_crosstab = pd.crosstab(data_quantitative["Age"], data_quantitative["Gls"])
-"""
+
 temp = data_crosstab.sub(data_crosstab.mean())
 data_scaled = temp.div(data_crosstab.std())
-
+"""
 fa = FactorAnalyzer(n_factors = 6, rotation = None)
 fa.fit(data_scaled)
 ev, v = fa.get_eigenvalues()
