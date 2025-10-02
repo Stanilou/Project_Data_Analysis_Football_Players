@@ -2,18 +2,20 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.decomposition import PCA
+import prince
+from sklearn.decomposition import PCA, FactorAnalysis
 from sklearn.preprocessing import StandardScaler
+from factor_analyzer.factor_analyzer import calculate_bartlett_sphericity
 from factor_analyzer import FactorAnalyzer
 
 data = pd.read_csv("cleaned_football_dataset.csv")
 
-quantitative_vars = ['Age', 'MP', 'Starts', 'Min', '90s', 'Gls', 'Ast', 'G+A']
-data_quantitative = data[quantitative_vars].dropna()
+vars = ['Age', 'MP', 'Starts', 'Min', '90s', 'Gls', 'Ast', 'G+A']
+data_vars = data[vars].dropna()
 
 # Scaler
 scaler = StandardScaler()
-x_scaled = scaler.fit_transform(data_quantitative)
+x_scaled = scaler.fit_transform(data_vars)
 
 # ACP
 pca = PCA()
@@ -63,7 +65,7 @@ def biplot(score, coeff, labels=None, density=False):
     plt.grid(alpha=0.3)
     plt.title('Graphique des variables (ACP)')
 
-coeff_labels = list(data_quantitative.columns)
+coeff_labels = list(data_vars.columns)
 biplot(pca_res[:, 0:2], np.transpose(pca.components_[0:2, :]), labels=coeff_labels)
 plt.show()
 
@@ -71,9 +73,9 @@ plt.show()
 pca_df = pd.DataFrame({
     "Dim1": pca_res[:, 0],
     "Dim2": pca_res[:, 1],
-    "Player": data.loc[data_quantitative.index, "Player"],
-    "Pos": data.loc[data_quantitative.index, "Pos"],
-    "Comp": data.loc[data_quantitative.index, "Comp"]
+    "Player": data.loc[data_vars.index, "Player"],
+    "Pos": data.loc[data_vars.index, "Pos"],
+    "Comp": data.loc[data_vars.index, "Comp"]
 })
 
 plt.figure(figsize=(14, 10))
@@ -138,22 +140,3 @@ plt.tight_layout()
 plt.show()
 
 # AFC
-
-data_crosstab = pd.crosstab(data_quantitative["Age"], data_quantitative["Gls"])
-
-temp = data_crosstab.sub(data_crosstab.mean())
-data_scaled = temp.div(data_crosstab.std())
-"""
-fa = FactorAnalyzer(n_factors = 6, rotation = None)
-fa.fit(data_scaled)
-ev, v = fa.get_eigenvalues()
-print(ev)
-
-plt.scatter(range(1, data_scaled.shape[1] + 1 ), ev)
-plt.plot(range(1, data_scaled.shape[1] + 1), ev )
-plt.title("Scree Plot")
-plt.xlabel("Factors")
-plt.ylabel("Eigenvalue")
-plt.grid()
-plt.show()
-"""
