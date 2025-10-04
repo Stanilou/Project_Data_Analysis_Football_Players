@@ -1,81 +1,127 @@
-3 Analyse en composante principale
-Vous commencerez par standardiser l’ensemble des variables. La standardisation (aussi appelée normalisation standard) consiste à soustraire la moyenne et à la diviser par l’écart type. La distribution résultante a une moyenne de 0 et un écart-type de 1.
+2 Analyse Factorielle des Correspondance
+Afin de réaliser l’analyse factorielle des correspondance vous commencerez par réaliser un tableau de contingence entre les deux variables que vous souhaitez analyser. Pour ce faire vous pouvez utiliser la fonction ’crosstab’ de la librairie panda. Voici un exemple :
+data_crosstab = pd.crosstab(data_quantitative["Age"], data_quantitative["Gls"])
+Une fois cette étape réalisée vous procéderez à la standardisation des données
+(cf. TD 01 Analyse ACP).
+temp = data_crosstab.sub(data_crosstab.mean())
+data_scaled = temp.div(data_crosstab.std())
+Nous allons maintenant nous assurer qu’il est pertinent de réaliser une AFC
+sur ces données. Pour ce faire nous faisons le test suivant :test de sphéricité de
+Bartlett (Bartlett Sphericity Test en anglais). Ce test vérifie les intercorrelations
+entre les variables en faisant la comparaison entre la matrice de corrélation et la
+matrice identité. Si les variables sont indépendantes, la matrice de corrélation
+est égale à la matrice identité.
+Afin de pouvoir réaliser une AFC, il est nécessaire que les variables soient
+globalement dépendantes, ie. que la matrice de corrélation et la matrice d’identité
+ne soient pas les mˆemes. Il faut pour cela que la p-value du test de sphéricité
+de Bartlett soit le plus proche possible de 0.
 
-En deux lignes en python :
-temp = x.sub(x.mean())
-xscaled = temp.div(x.std())
+from factor_analyzer.factor_analyzer import calculate_bartlett_sphericity
+chi_square_value,p_value=calculate_bartlett_sphericity(data_scaled)
+print(p-value)
 
-Nous appelons x scaled le jeu de valeur standardisées au quel nous appliquerons l’ACP. Dans l’exemple ci-dessous le nombre de composantes conservées est fixé à 3, vous changerez cette valeur en fonction de vos besoins.
+A partir du moment o`u vos données sont valides pour une AFC, vous pouvez
+maintenant déterminer le nombre de facteurs à conserver pour votre analyse.
+Les facteurs, les variables latentes, sont des combinaisons linéaires des points
+modalités (lignes ou colonnes) exprimés par des profils (lignes ou colonnes). Le
+nombre maximal de facteurs est égal au minimum du nombre de lignes et de
+colonnes -1 :
+n_factorsmax = min(col − 1, li − 1)
+Nous commencerons par réaliser une première analyse sans rotation afin de
+déterminer le nombre de facteurs à fixer pour l’analyse.
+fa = FactorAnalyzer(n_factors = 6, rotation=None)
+fa.fit(data_scaled)
+ev, v = fa.get_eigenvalues()
+print(ev)
+Nous afficherons les résultats grˆace à un graphique.
 
-pca = PCA(ncomponents=3)
-pca.fit(xscaled)
-pca.fit permet d’obtenir la modélisation de l’ACP. Afin d’obtenir les résultats pour les individus il faut combiner les fonctions fit() et transform de l’ACP.
-Une autre possibilité est d’utiliser la fonction fit_transform() qui réalise automatiquement la combinaison des deux.
-pcares=pca.fit_transform(xscaled)
-Nous appelons par la suite pca res les résultat obtenus pour les individus.
-
-3.1 Calcule des valeurs propres
-Parmi l’ensemble des valeurs de la PCA vous retrouverez :
-• Les valeurs propres des composantes : pca.singular values
-• Les pourcentages de valeurs propres : pca.explained variance ratio
-Avec ces éléments créé une table qui résume les valeurs propre. Ce tableau inclura :
-• Les dimensions de votre ACP
-• Les valeurs propre
-• Les pourcentages de valeur propre
-• Les pourcentage de valeur propre cumulés
-
-eig = pd.DataFrame ({
-    ” Dimension ” :
-    [ ”Dim” + str(x+1) for x in range(6) ],
-    ” Valeur propre ” : pca.explained_variance,
-    ”% valeur propre ” :
-    np.round(pca.explained_variance_ratio_∗100 ) ,
-    ”% cum. val. prop. ” :
-    np.round(np.cumsum(pca.explained_variance_ratio_)∗100)
-})
-Une autre façon d’analyser les résultats des valeurs propre est de réaliser un diagramme bâton. Réalisez ce diagramme dont l’abscisse sera composé de l’ensemble des dimensions de votre ACP et l’ordonnée les pourcentages de valeur propre.
-y1 = list(pca.explained_variance_ratio)
-x1 = range(len(y1))
-plt.bar(x1, y1)
+plt.scatter(range (1, data_scaled. shape [1]+1), ev)
+plt.plot(range (1, data_scaled.shape [1]+1), ev)
+plt.title('Scree Plot')
+plt.xlabel('Factors')
+plt.ylabel('Eigenvalue')
+plt.grid()
 plt.show()
 
-3.2 Graphique des variables
-Pour afficher le graphique des variables vous pouvez utiliser la fonction biplot1 dans le fichier python ci-joint. Voici un exemple ci-dessous.
-biplot(score=data_sortie[:,0:2],coeff=np.transpose(pca.components_[0:2,:]),cat=y1[0:1],density=False)
-plt.show()
-Il n’y as pas le nom des variables sur ce graphique, faites les apparaître grâce à coeff_labels = list(x.columns).
+Seuls les facteurs avec une valeur propre supérieur ou égale à 1 seront gardés.
+Nous pouvons finalement réaliser l’AFC avec le nombre de facteurs appropriés. Le code ci-dessous permet d’afficher les AFC en fonctions de 3 rotations
+différentes, les représentation graphiques seront donc légérement différentes.
+(FA pour Factorial Analisys).
 
-3.3 Graphique des individus
-Pour cette partie vous chercherez à afficher le graphique des individus de l’ACP.
-Pour ce faire vous pouvez commencer par créer un dataframe qui inclus les
-résultats des deux premières dimensions de l’ACP pour l’ensemble de vos individus. Vous ajouterez également à ce dataframe des variable catégorielles.
-Dans un premier temps générez le graphique des individus de l’ACP sans distinction entre les individus. Pour ce faire vous pouvez faire un dataframe qui inclue vos deux premières dimensions d’ACP. Vous pouvez également ajouter des données catégorielles qui nous servirons par la suite pour colorier les individus dans une représentation graphique plus avancée. Dans l’exemple ci-dessous “goodanswer” est une donnée catégorielle
+methods = [
+    ("FA No rotation", FactorAnalysis(2,)),
+    ("FA Varimax", FactorAnalysis(2, rotation="varimax")),
+    ("FA Quartimax", FactorAnalysis(2, rotation="quartimax")),
+]
 
-pca_df = pd.DataFrame ({
-    ”Dim1” : datasortie[:, 0],
-    ”Dim2” : datasortie[:, 1],
-    ”goodanswer”: df[”goodanswer”]
-})
-pca_df.plot.scatter(”Dim1”, ”Dim2”)
-plt.xlabel(”Dimension 1 (%)”)
-plt.ylabel(”Dimension 2 (%)”)
-plt.suptitle(”Premier plan factoriel(%)”)
+fig, axes = plt.subplots(ncols=3, figsize=(10, 8), sharex=True, sharey=True)
+
+for ax, (method, fa) in zip(axes, methods):
+    fa = fa.fit(data_scaled)
+
+    components = fa.components
+
+    vmax = np.abs(components).max()
+    ax.scatter (components [0,:], components [1, :])
+    ax.axhline (0, -1, 1, color='k')
+    ax.axvline (0, -1, 1, color='k')
+    for i,j,z in zip (components [0,], components [1, :], data_scaled.columns):
+        ax.text (i+.02, j+.02, str(z), ha="center")
+    for i,j,z in zip (components [0,], components [1, :], data_scaled.index):
+        ax.text (i+.02, j+.02, str (z), ha="center")
+    ax.set_title (str(method))
+    if ax.get_subplotspec(). is_first_col ():
+        ax.set_ylabel("Factor 1")
+    ax.set_xlabel("Factor 2")
+
+plt.tight_layout ()
 plt.show()
-Dans un second temps vous générerez un graphique en colorant les individus d’après une de vos variables catégorielles. Dans l’exemple suivant j’utilise ma variable catégorielle “goodanswer”. Vous commencerez par créer une palette de couleur basée sur Color Brewer.
-palette = plt.get_cmap(” Dark2 ”)
-c o ul e u r s = d i c t ( zi p ( p c a d f [ ” goodanswer ” ] . d r o p d u p l i c a t e s ( ) ,
-p a l e t t e ( r an ge ( 1 0 ) ) ) )
-p o s i t i o n = d i c t ( zi p ( c o ul e u r s . key s ( ) , r an ge ( 1 0 ) ) )
-Ensuite vous afficherez le graphique des individus en coloriant ces dernier
-grˆace `a la palette de couleur comme dans l’exemple ci-dessous. Je rappel que
-good answer est dans l’exemple suivant la variable cat´egorielle utilis´ee pour la
-coloration.
-p c a d f . pl o t . s c a t t e r ( ”Dim1 ” , ”Dim2 ” ,
-c = [ c o ul e u r s [ p ] f o r p i n p c a d f [ ” goodanswer ” ] ] )
-f o r cont , c o ul i n c o ul e u r s . i tem s ( ) :
-p l t . s c a t t e r ( 3 , p o s i t i o n [ c on t ] / 3 + 2. 1 5 , c = [ c o ul ] , s = 2 0 )
-p l t . t e x t ( 3 . 2 , p o s i t i o n [ c on t ] / 3 + 2 , c on t )
-p l t . x l a b e l ( ” Dimension 1 (%)”)
-p l t . y l a b e l ( ” Dimension 2 ( %)”)
-p l t . s u p t i t l e ( ” Premier pl an f a c t o r i e l (%)”)
-p l t . show ( )
+
+
+temp = data_crosstab.sub(data_crosstab.mean())
+data_scaled = temp.div(data_crosstab.std())
+
+chi_square_value, p_value = calculate_bartlett_sphericity(data_scaled)
+print("P_value : ", p_value)
+
+fa = FactorAnalyzer(n_factors = 6, rotation=None)
+fa.fit(data_scaled)
+ev, v = fa.get_eigenvalues()
+print("Ev :", ev)
+
+plt.scatter(range (1, data_scaled. shape [1]+1), ev)
+plt.plot(range (1, data_scaled.shape [1]+1), ev)
+plt.title('Scree Plot')
+plt.xlabel('Factors')
+plt.ylabel('Eigenvalue')
+plt.grid()
+plt.show()
+
+methods = [
+    ("FA No rotation", FactorAnalysis(2,)),
+    ("FA Varimax", FactorAnalysis(2, rotation="varimax")),
+    ("FA Quartimax", FactorAnalysis(2, rotation="quartimax")),
+]
+
+fig, axes = plt.subplots(ncols=3, figsize=(10, 8), sharex=True, sharey=True)
+
+for ax, (method, fa) in zip(axes, methods):
+    fa = fa.fit(data_scaled)
+
+    components = fa.components_
+
+    vmax = np.abs(components).max()
+    ax.scatter (components [0,:], components [1, :])
+    ax.axhline (0, -1, 1, color='k')
+    ax.axvline (0, -1, 1, color='k')
+    for i,j,z in zip (components [0,], components [1, :], data_scaled.columns):
+        ax.text (i+.02, j+.02, str(z), ha="center")
+    for i,j,z in zip (components [0,], components [1, :], data_scaled.index):
+        ax.text (i+.02, j+.02, str (z), ha="center")
+    ax.set_title (str(method))
+    if ax.get_subplotspec(). is_first_col ():
+        ax.set_ylabel("Factor 1")
+    ax.set_xlabel("Factor 2")
+
+plt.tight_layout ()
+plt.show()
