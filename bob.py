@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import prince
 from sklearn.decomposition import PCA, FactorAnalysis
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, LabelEncoder
 from factor_analyzer.factor_analyzer import calculate_bartlett_sphericity
 from factor_analyzer import FactorAnalyzer
 
@@ -139,4 +139,105 @@ plt.grid(alpha=0.3)
 plt.tight_layout()
 plt.show()
 
-# AFC
+# AFC (Analyse par facteurs correspondants)
+# Prepare data for AFC: cross-tabulation of Position vs Competition
+data['Age_Group'] = pd.cut(data['Age'], 
+                         bins=[15, 22, 26, 30, 40], 
+                         labels=['Jeune (15-22)', 'Adulte (23-26)', 'Expérimenté (27-30)', 'Vétéran (31-40)'])
+
+# 2. Create goal performance categories
+data['Goal_Performance'] = pd.cut(data['Gls'],
+                                bins=[0, 5, 10, 15, 35],
+                                labels=['Faible (0-5)', 'Moyen (6-10)', 'Bon (11-15)', 'Excellent (16+)'])
+
+data['Assist_Performance'] = pd.cut(data['Ast'],
+                                  bins=[-1, 2, 5, 8, 20],
+                                  labels=['Faible (0-2)', 'Moyen (3-5)', 'Bon (6-8)', 'Excellent (9+)'])
+
+print("Distribution des catégories créées:")
+print("Groupes d'âge:")
+print(data['Age_Group'].value_counts().sort_index())
+print("\nPerformance de buts:")
+print(data['Goal_Performance'].value_counts().sort_index())
+print("\nPerformance de passes décisives:")
+print(data['Assist_Performance'].value_counts().sort_index())
+
+# Create cross-tabulation for Age Groups vs Goal Performance
+cross_tab_age_goals = pd.crosstab(data['Age_Group'], data['Goal_Performance'])
+
+# Perform Correspondence Analysis
+ca_age_goals = prince.CA(
+    n_components=2,
+    n_iter=10,
+    random_state=42
+)
+ca_age_goals = ca_age_goals.fit(cross_tab_age_goals)
+
+# Visualization - Goals vs Age graph
+plt.figure(figsize=(14, 10))
+
+# Plot row coordinates (age groups)
+row_coords = ca_age_goals.row_coordinates(cross_tab_age_goals)
+plt.scatter(row_coords[0], row_coords[1], color='red', s=100, alpha=0.7, label='Groupes d\'âge')
+
+# Plot column coordinates (goal performance)
+col_coords = ca_age_goals.column_coordinates(cross_tab_age_goals)
+plt.scatter(col_coords[0], col_coords[1], color='blue', s=100, alpha=0.7, label='Performance de buts')
+
+# Add labels for age groups
+for age_group, (x, y) in row_coords.iterrows():
+    plt.annotate(age_group, (x, y), xytext=(5, 5), textcoords='offset points', 
+                fontsize=10, color='red', fontweight='bold')
+
+# Add labels for goal performance
+for goal_perf, (x, y) in col_coords.iterrows():
+    plt.annotate(goal_perf, (x, y), xytext=(5, 5), textcoords='offset points', 
+                fontsize=10, color='blue', fontweight='bold')
+
+plt.title('AFC: Groupes d\'âge vs Performance de buts', fontsize=14, fontweight='bold')
+plt.xlabel('Composante 1')
+plt.ylabel('Composante 2')
+plt.legend()
+plt.grid(alpha=0.3)
+plt.tight_layout()
+plt.show()
+
+# AFC 2: Age Groups vs Assist Performance
+cross_tab_age_assists = pd.crosstab(data['Age_Group'], data['Assist_Performance'])
+
+# Perform Correspondence Analysis for assists
+ca_age_assists = prince.CA(
+    n_components=2,
+    n_iter=10,
+    random_state=42
+)
+ca_age_assists = ca_age_assists.fit(cross_tab_age_assists)
+
+# Visualization - Assists vs Age graph
+plt.figure(figsize=(14, 10))
+
+# Plot row coordinates (age groups)
+row_coords_assists = ca_age_assists.row_coordinates(cross_tab_age_assists)
+plt.scatter(row_coords_assists[0], row_coords_assists[1], color='red', s=100, alpha=0.7, label='Groupes d\'âge')
+
+# Plot column coordinates (assist performance)
+col_coords_assists = ca_age_assists.column_coordinates(cross_tab_age_assists)
+plt.scatter(col_coords_assists[0], col_coords_assists[1], color='green', s=100, alpha=0.7, label='Performance de passes')
+
+# Add labels for age groups
+for age_group, (x, y) in row_coords_assists.iterrows():
+    plt.annotate(age_group, (x, y), xytext=(5, 5), textcoords='offset points', 
+                fontsize=10, color='red', fontweight='bold')
+
+# Add labels for assist performance
+for assist_perf, (x, y) in col_coords_assists.iterrows():
+    plt.annotate(assist_perf, (x, y), xytext=(5, 5), textcoords='offset points', 
+                fontsize=10, color='green', fontweight='bold')
+
+plt.title('AFC: Groupes d\'âge vs Performance de passes décisives', fontsize=14, fontweight='bold')
+plt.xlabel('Composante 1')
+plt.ylabel('Composante 2')
+plt.legend()
+plt.grid(alpha=0.3)
+plt.tight_layout()
+plt.show()
