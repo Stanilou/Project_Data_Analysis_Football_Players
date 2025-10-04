@@ -12,9 +12,19 @@
 \contentsline {subsection}{\nonumberline Graphique des individus}{5}{subsection*.23}%
 \contentsline {subsubsection}{\nonumberline Définition}{5}{subsubsection*.25}%
 \contentsline {subsubsection}{\nonumberline Interprétation}{5}{subsubsection*.27}%
-\contentsline {subsection}{\nonumberline Valeurs propres}{7}{subsection*.29}%
-\contentsline {subsubsection}{\nonumberline Définition}{7}{subsubsection*.31}%
-\contentsline {subsubsection}{\nonumberline Interprétation}{8}{subsubsection*.33}%
-\contentsline {section}{\nonumberline Analyse catégorielle / qualitative des données}{8}{section*.35}%
-\contentsline {section}{\nonumberline Conclusion}{8}{section*.37}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{6}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{7}{subsubsection*.31}%
+\contentsline {subsection}{\nonumberline Valeurs propres}{7}{subsection*.33}%
+\contentsline {subsubsection}{\nonumberline Définition}{7}{subsubsection*.35}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{8}{subsubsection*.37}%
+\contentsline {section}{\nonumberline Analyse catégorielle des données : AFC}{8}{section*.39}%
+\contentsline {subsection}{\nonumberline Définition}{8}{subsection*.41}%
+\contentsline {subsection}{\nonumberline Graphique des associations}{9}{subsection*.43}%
+\contentsline {subsubsection}{\nonumberline Définition}{9}{subsubsection*.45}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{9}{subsubsection*.47}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{10}{subsubsection*.49}%
+\contentsline {section}{\nonumberline Analyse mixte des données : ACM}{10}{section*.51}%
+\contentsline {subsection}{\nonumberline Définition}{10}{subsection*.53}%
+\contentsline {subsection}{\nonumberline Interprétation}{10}{subsection*.55}%
+\contentsline {section}{\nonumberline Conclusion}{10}{section*.57}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.17)  2 OCT 2025 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.17)  4 OCT 2025 17:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -725,7 +725,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
-<images/exemple_entree.png, id=48, 663.22781pt x 36.135pt>
+<images/exemple_entree.png, id=68, 663.22781pt x 36.135pt>
 File: images/exemple_entree.png Graphic file (type png)
 <use images/exemple_entree.png>
 Package pdftex.def Info: images/exemple_entree.png  used on input line 103.
@@ -753,7 +753,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-<images/cercle_de_corrélation.png, id=60, 936.49875pt x 752.0597pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+<images/cercle_de_corrélation.png, id=80, 936.49875pt x 752.0597pt>
 File: images/cercle_de_corrélation.png Graphic file (type png)
 <use images/cercle_de_corrélation.png>
 Package pdftex.def Info: images/cercle_de_corrélation.png  used on input line 136.
@@ -781,9 +786,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--154
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+
 
 [4 <./images/cercle_de_corrélation.png>]
-<images/graphique_des_individus.png, id=81, 1222.5675pt x 663.22781pt>
+<images/graphique_des_individus.png, id=101, 1222.5675pt x 663.22781pt>
 File: images/graphique_des_individus.png Graphic file (type png)
 <use images/graphique_des_individus.png>
 Package pdftex.def Info: images/graphique_des_individus.png  used on input line 156.
@@ -803,7 +813,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--164
 
  []
 
-<images/graphique_des_individus_positions.png, id=82, 1234.6125pt x 663.98062pt>
+<images/graphique_des_individus_positions.png, id=102, 1234.6125pt x 663.98062pt>
 File: images/graphique_des_individus_positions.png Graphic file (type png)
 <use images/graphique_des_individus_positions.png>
 Package pdftex.def Info: images/graphique_des_individus_positions.png  used on input line 166.
@@ -811,57 +821,112 @@ Package pdftex.def Info: images/graphique_des_individus_positions.png  used on i
 
 
 [5 <./images/graphique_des_individus.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
-<images/graphique_des_individus_championnats.png, id=92, 1324.19719pt x 813.0375pt>
+<images/graphique_des_individus_championnats.png, id=112, 1324.19719pt x 813.0375pt>
 File: images/graphique_des_individus_championnats.png Graphic file (type png)
 <use images/graphique_des_individus_championnats.png>
-Package pdftex.def Info: images/graphique_des_individus_championnats.png  used on input line 174.
+Package pdftex.def Info: images/graphique_des_individus_championnats.png  used on input line 175.
 (pdftex.def)             Requested size: 483.69693pt x 296.97333pt.
 
 
 [6 <./images/graphique_des_individus_positions.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--189
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
 
  []
 
-<images/valeurs_propres_ACP.png, id=99, 937.25156pt x 563.10374pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
+
+ []
+
+<images/valeurs_propres_ACP.png, id=120, 937.25156pt x 563.10374pt>
 File: images/valeurs_propres_ACP.png Graphic file (type png)
 <use images/valeurs_propres_ACP.png>
-Package pdftex.def Info: images/valeurs_propres_ACP.png  used on input line 191.
+Package pdftex.def Info: images/valeurs_propres_ACP.png  used on input line 193.
 (pdftex.def)             Requested size: 483.69693pt x 290.61601pt.
 
 
 [7 <./images/graphique_des_individus_championnats.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
 
  []
 
 
 
-[8 <./images/valeurs_propres_ACP.png>] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.aux)
+[8 <./images/valeurs_propres_ACP.png>]
+<images/graphique_AFC_buts.png, id=140, 1444.64719pt x 812.28468pt>
+File: images/graphique_AFC_buts.png Graphic file (type png)
+<use images/graphique_AFC_buts.png>
+Package pdftex.def Info: images/graphique_AFC_buts.png  used on input line 223.
+(pdftex.def)             Requested size: 483.69693pt x 271.97142pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
+
+ []
+
+<images/graphique_AFC_passes.png, id=141, 1444.64719pt x 812.28468pt>
+File: images/graphique_AFC_passes.png Graphic file (type png)
+<use images/graphique_AFC_passes.png>
+Package pdftex.def Info: images/graphique_AFC_passes.png  used on input line 232.
+(pdftex.def)             Requested size: 483.69693pt x 271.97142pt.
+
+
+[9 <./images/graphique_AFC_buts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
+
+ []
+
+
+
+[10 <./images/graphique_AFC_passes.png>] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -870,17 +935,17 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18744 strings out of 473523
- 332537 string characters out of 5711726
- 923926 words of memory out of 5000000
- 41558 multiletter control sequences out of 15000+600000
- 623242 words of font info for 136 fonts, out of 8000000 for 9000
+ 18800 strings out of 473523
+ 333488 string characters out of 5711726
+ 928926 words of memory out of 5000000
+ 41582 multiletter control sequences out of 15000+600000
+ 623606 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,107p,10988b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.pdf" (8 pages, 1015191 bytes).
+Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.pdf" (10 pages, 1170982 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 39087 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
+ 39177 words of extra memory for PDF output out of 42996 (max. 10000000)
 
