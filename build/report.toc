@@ -25,6 +25,8 @@
 \contentsline {subsubsection}{\nonumberline Interprétation}{10}{subsubsection*.49}%
 \contentsline {section}{\nonumberline Analyse mixte des données : ACM}{10}{section*.51}%
 \contentsline {subsection}{\nonumberline Définition}{10}{subsection*.53}%
-\contentsline {subsection}{\nonumberline Interprétation}{11}{subsection*.55}%
-\contentsline {section}{\nonumberline Conclusion}{11}{section*.57}%
+\contentsline {subsection}{\nonumberline Graphique des modalités}{11}{subsection*.55}%
+\contentsline {subsubsection}{\nonumberline Définition}{11}{subsubsection*.57}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{11}{subsubsection*.59}%
+\contentsline {section}{\nonumberline Conclusion}{12}{section*.61}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

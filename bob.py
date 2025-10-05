@@ -1,12 +1,18 @@
 import pandas as pd 
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.cm as cm
 import seaborn as sns
 import prince
-from sklearn.decomposition import PCA, FactorAnalysis
-from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.decomposition import PCA, FactorAnalysis, TruncatedSVD
+from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 from factor_analyzer.factor_analyzer import calculate_bartlett_sphericity
 from factor_analyzer import FactorAnalyzer
+
+
+################################################################
+###                 CHARGEMENT DES DONNÉES                   ###
+################################################################
 
 data = pd.read_csv("cleaned_football_dataset.csv")
 
@@ -17,7 +23,16 @@ data_vars = data[vars].dropna()
 scaler = StandardScaler()
 x_scaled = scaler.fit_transform(data_vars)
 
-# ACP
+
+################################################################
+###               ANALYSE QUANTITATIVE : ACP                 ###
+################################################################
+
+
+################################################################
+###               TABLEAU DES VALEURS PROPRES                ###
+################################################################
+
 pca = PCA()
 pca_res = pca.fit_transform(x_scaled)
 
@@ -42,7 +57,11 @@ plt.xticks(x1)
 plt.grid(axis='y', alpha=0.3)
 plt.show()
 
-# Cercle de corrélation
+
+################################################################
+###                   CERCLE DE CORRÉLATION                  ###
+################################################################
+
 def biplot(score, coeff, labels=None, density=False):
     plt.figure(figsize=(10, 8))
     xs = score[:, 0]
@@ -69,7 +88,11 @@ coeff_labels = list(data_vars.columns)
 biplot(pca_res[:, 0:2], np.transpose(pca.components_[0:2, :]), labels=coeff_labels)
 plt.show()
 
-# Graphique des individus
+
+################################################################
+###                 GRAPHIQUE DES INDIVIDUS                  ###
+################################################################
+
 pca_df = pd.DataFrame({
     "Dim1": pca_res[:, 0],
     "Dim2": pca_res[:, 1],
@@ -90,7 +113,11 @@ plt.title("Graphique des individus")
 plt.grid(alpha=0.3)
 plt.show()
 
-# 8. Graphique des individus coloré par position
+
+################################################################
+###       GRAPHIQUE DES INDIVIDUS COLORÉ PAR POSITION        ###
+################################################################
+
 plt.figure(figsize=(14, 10))
 
 couleurs = {
@@ -117,7 +144,11 @@ plt.legend()
 plt.grid(alpha=0.3)
 plt.show()
 
-# Graphique des individus coloré par championnat
+
+################################################################
+###     GRAPHIQUE DES INDIVIDUS COLORÉ PAR CHAMPIONNAT       ###
+################################################################
+
 plt.figure(figsize=(14, 10))
 
 palette2 = plt.get_cmap("Dark2")
@@ -139,7 +170,16 @@ plt.grid(alpha=0.3)
 plt.tight_layout()
 plt.show()
 
-# AFC (Analyse par facteurs correspondants)
+
+################################################################
+###                 ANALYSE CATÉGORIELLE : AFC               ###
+################################################################
+
+
+################################################################
+###        GRAPHIQUE DES ASSOCIATIONS PAR ÂGES ET BUTS       ###
+################################################################
+
 # Prepare data for AFC: cross-tabulation of Position vs Competition
 data['Age_Group'] = pd.cut(data['Age'], 
                          bins=[15, 22, 26, 30, 40], 
@@ -202,7 +242,11 @@ plt.grid(alpha=0.3)
 plt.tight_layout()
 plt.show()
 
-# AFC 2: Age Groups vs Assist Performance
+
+################################################################
+###      GRAPHIQUE DES ASSOCIATIONS PAR ÂGES ET PASSES       ###
+################################################################
+
 cross_tab_age_assists = pd.crosstab(data['Age_Group'], data['Assist_Performance'])
 
 # Perform Correspondence Analysis for assists
@@ -240,4 +284,57 @@ plt.ylabel('Composante 2')
 plt.legend()
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.show()
+
+
+################################################################
+###                    ANALYSE MIXTE : ACM                   ###
+################################################################
+
+variables_qualitatives = ['Pos', 'Comp', 'Age_Group', 'Goal_Performance', 'Assist_Performance']
+data_acm = data[variables_qualitatives].dropna()
+
+encoder = OneHotEncoder(sparse_output=False)
+X = encoder.fit_transform(data_acm)
+X = pd.DataFrame(X, columns=encoder.get_feature_names_out(variables_qualitatives))
+
+nb_dimensions = 2 
+svd = TruncatedSVD(n_components=nb_dimensions)
+components = svd.fit_transform(X)
+
+variance_expliquee = svd.explained_variance_ratio_
+
+valeurs_propres = pd.DataFrame({"Dimension": ["Dim" + str(i+1) for i in range(nb_dimensions)], "% variance expliquée": np.round(variance_expliquee * 100, 2)})
+print("\nTableau des variances expliquées (ACM) :")
+print(valeurs_propres) 
+
+
+################################################################
+###                GRAPHIQUE DES INDIVIDUS (ACM)             ###
+################################################################
+
+groupes_ages = data.loc[data_acm.index, 'Age_Group']
+
+tranche_ages = groupes_ages.unique() 
+couleurs = cm.tab10(np.linspace(0, 1, len(tranche_ages)))  
+couleur_age = {age: couleurs[i] for i, age in enumerate(tranche_ages)}
+
+plt.figure(figsize=(10,8))
+
+for age in tranche_ages:
+    idx = groupes_ages[groupes_ages == age].index 
+    plt.scatter(
+        components[[data_acm.index.get_loc(i) for i in idx], 0],
+        components[[data_acm.index.get_loc(i) for i in idx], 1],
+        alpha=0.7,
+        s=50,
+        label=age,
+        color=couleur_age[age]
+    )
+
+plt.title("ACM – Représentation des individus par tranche d'âge")
+plt.xlabel(f"Dimension 1 ({variance_expliquee[0]*100:.1f}%)")
+plt.ylabel(f"Dimension 2 ({variance_expliquee[1]*100:.1f}%)")
+plt.grid(alpha=0.3)
+plt.legend(loc='upper left')
 plt.show()

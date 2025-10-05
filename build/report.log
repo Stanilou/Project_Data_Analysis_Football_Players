@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.17)  4 OCT 2025 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.17)  5 OCT 2025 16:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -725,7 +725,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
-<images/exemple_entree.png, id=68, 663.22781pt x 36.135pt>
+<images/exemple_entree.png, id=72, 663.22781pt x 36.135pt>
 File: images/exemple_entree.png Graphic file (type png)
 <use images/exemple_entree.png>
 Package pdftex.def Info: images/exemple_entree.png  used on input line 103.
@@ -758,7 +758,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-<images/cercle_de_corrélation.png, id=80, 936.49875pt x 752.0597pt>
+<images/cercle_de_corrélation.png, id=84, 936.49875pt x 752.0597pt>
 File: images/cercle_de_corrélation.png Graphic file (type png)
 <use images/cercle_de_corrélation.png>
 Package pdftex.def Info: images/cercle_de_corrélation.png  used on input line 136.
@@ -793,7 +793,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
 
 [4 <./images/cercle_de_corrélation.png>]
-<images/graphique_des_individus.png, id=101, 1222.5675pt x 663.22781pt>
+<images/graphique_des_individus.png, id=105, 1222.5675pt x 663.22781pt>
 File: images/graphique_des_individus.png Graphic file (type png)
 <use images/graphique_des_individus.png>
 Package pdftex.def Info: images/graphique_des_individus.png  used on input line 156.
@@ -813,7 +813,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--164
 
  []
 
-<images/graphique_des_individus_positions.png, id=102, 1234.6125pt x 663.98062pt>
+<images/graphique_des_individus_positions.png, id=106, 1234.6125pt x 663.98062pt>
 File: images/graphique_des_individus_positions.png Graphic file (type png)
 <use images/graphique_des_individus_positions.png>
 Package pdftex.def Info: images/graphique_des_individus_positions.png  used on input line 166.
@@ -830,7 +830,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
-<images/graphique_des_individus_championnats.png, id=112, 1324.19719pt x 813.0375pt>
+<images/graphique_des_individus_championnats.png, id=116, 1324.19719pt x 813.0375pt>
 File: images/graphique_des_individus_championnats.png Graphic file (type png)
 <use images/graphique_des_individus_championnats.png>
 Package pdftex.def Info: images/graphique_des_individus_championnats.png  used on input line 175.
@@ -857,7 +857,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--191
 
  []
 
-<images/valeurs_propres_ACP.png, id=120, 937.25156pt x 563.10374pt>
+<images/valeurs_propres_ACP.png, id=124, 937.25156pt x 563.10374pt>
 File: images/valeurs_propres_ACP.png Graphic file (type png)
 <use images/valeurs_propres_ACP.png>
 Package pdftex.def Info: images/valeurs_propres_ACP.png  used on input line 193.
@@ -897,7 +897,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--221
 
 
 [8 <./images/valeurs_propres_ACP.png>]
-<images/graphique_AFC_buts.png, id=140, 1444.64719pt x 812.28468pt>
+<images/graphique_AFC_buts.png, id=144, 1444.64719pt x 812.28468pt>
 File: images/graphique_AFC_buts.png Graphic file (type png)
 <use images/graphique_AFC_buts.png>
 Package pdftex.def Info: images/graphique_AFC_buts.png  used on input line 223.
@@ -912,7 +912,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--230
 
  []
 
-<images/graphique_AFC_passes.png, id=141, 1444.64719pt x 812.28468pt>
+<images/graphique_AFC_passes.png, id=145, 1444.64719pt x 812.28468pt>
 File: images/graphique_AFC_passes.png Graphic file (type png)
 <use images/graphique_AFC_passes.png>
 Package pdftex.def Info: images/graphique_AFC_passes.png  used on input line 232.
@@ -930,10 +930,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--250
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
+
+ []
+
+
 
 [10 <./images/graphique_AFC_passes.png>]
+<images/graphique_ACM_ages.png, id=164, 1444.64719pt x 812.28468pt>
+File: images/graphique_ACM_ages.png Graphic file (type png)
+<use images/graphique_ACM_ages.png>
+Package pdftex.def Info: images/graphique_ACM_ages.png  used on input line 258.
+(pdftex.def)             Requested size: 483.69693pt x 271.97142pt.
 
-[11] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
+
+ []
+
+
+
+[11 <./images/graphique_ACM_ages.png>]
+
+[12] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -942,17 +980,17 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18801 strings out of 473523
- 333495 string characters out of 5711726
- 928926 words of memory out of 5000000
- 41582 multiletter control sequences out of 15000+600000
+ 18816 strings out of 473523
+ 333829 string characters out of 5711726
+ 929926 words of memory out of 5000000
+ 41591 multiletter control sequences out of 15000+600000
  623606 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,107p,10988b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.pdf" (11 pages, 1172729 bytes).
+Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\build\report.pdf" (12 pages, 1267866 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 39177 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 39198 words of extra memory for PDF output out of 42996 (max. 10000000)
 
