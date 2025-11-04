@@ -2,6 +2,6 @@ Nettoyage des données :
     - Suppression de la colonne "Timestamps" car inutile
     - Suppression de la colonne "Permissions" car inutile
     - Suppression de la colonne "Primary streaming service" car inutile
-    - Suppression des lignes avec une ou plusieurs valeur(s)
+    - Suppression des lignes avec une ou plusieurs valeur(s) manquante(s)
     - Ajout d'une colonne "Id" pour identifier chaque ligne de manière unique (remplace la colonne "Timestamps")
     
