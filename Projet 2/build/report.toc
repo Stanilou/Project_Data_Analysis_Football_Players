@@ -1,0 +1,32 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\nonumberline Introduction}{2}{section*.3}%
+\contentsline {section}{\nonumberline Présentation du jeu de données}{2}{section*.5}%
+\contentsline {subsection}{\nonumberline Description du jeu de données}{2}{subsection*.7}%
+\contentsline {subsection}{\nonumberline Exemple d'une entrée du jeu de données}{3}{subsection*.9}%
+\contentsline {section}{\nonumberline Présentation des techniques d'analyse de données}{3}{section*.11}%
+\contentsline {section}{\nonumberline Analyse quantitative des données : l'ACP}{3}{section*.13}%
+\contentsline {subsection}{\nonumberline Définition}{3}{subsection*.15}%
+\contentsline {subsection}{\nonumberline Cercle de corrélation}{4}{subsection*.17}%
+\contentsline {subsubsection}{\nonumberline Définition}{4}{subsubsection*.19}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{5}{subsubsection*.21}%
+\contentsline {subsection}{\nonumberline Graphique des individus}{6}{subsection*.23}%
+\contentsline {subsubsection}{\nonumberline Définition}{6}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{7}{subsubsection*.27}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{8}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{9}{subsubsection*.31}%
+\contentsline {subsection}{\nonumberline Valeurs propres}{10}{subsection*.33}%
+\contentsline {subsubsection}{\nonumberline Définition}{10}{subsubsection*.35}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{10}{subsubsection*.37}%
+\contentsline {section}{\nonumberline Analyse catégorielle des données : AFC}{11}{section*.39}%
+\contentsline {subsection}{\nonumberline Définition}{11}{subsection*.41}%
+\contentsline {subsection}{\nonumberline Graphique des associations}{11}{subsection*.43}%
+\contentsline {subsubsection}{\nonumberline Définition}{11}{subsubsection*.45}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{12}{subsubsection*.47}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{13}{subsubsection*.49}%
+\contentsline {section}{\nonumberline Analyse mixte des données : ACM}{14}{section*.51}%
+\contentsline {subsection}{\nonumberline Définition}{14}{subsection*.53}%
+\contentsline {subsection}{\nonumberline Graphique des modalités}{14}{subsection*.55}%
+\contentsline {subsubsection}{\nonumberline Définition}{14}{subsubsection*.57}%
+\contentsline {subsubsection}{\nonumberline Interprétation}{15}{subsubsection*.59}%
+\contentsline {section}{\nonumberline Conclusion}{16}{section*.61}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
