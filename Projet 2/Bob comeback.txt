@@ -12,4 +12,15 @@ Nettoyage des données :
     - Ajout d'une colonne "Id" pour identifier chaque ligne de manière unique (remplace la colonne "Timestamps")
 
 
-    
+Contexte et question de recherche :
+- Pour ce projet nous avons décider de regarder les datasets disponibles sur différents sites et choisir celui qui nous inspirait
+le plus. Et notre choix s'est porté sur un dataset alliant santé mentale et préférences musicales.
+- Notre problématique est donc : En quoi les préférences musicales peuvent-elles refléter ou influencer notre santé mentale ?
+Cette question centrale se décline en plusieurs sous-questions :
+- Quel est l'effet global de la musique sur la santé mentale ?
+- Certains genres musicaux sont-ils plus bénéfiques que d'autres ?
+- La pratique musicale (instrumentiste, compositeur) influence-t-elle cet impact ?
+- Existe-t-il des différences selon l'âge ou le temps d'écoute quotidien ?
+
+Choix du modèle et justification :
+- 
