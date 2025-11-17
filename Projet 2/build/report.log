@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.17)  17 NOV 2025 11:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.17)  17 NOV 2025 11:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -618,6 +618,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 49.
+(c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.out) (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
@@ -629,7 +630,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
 (scrartcl)           before \begin{document} on input line 49.
-(C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+ (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
@@ -685,7 +686,259 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input line 52.
 
 Package tocbasic Info: character protrusion at toc deactivated on input line 52.
-No file report.toc.
+(c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 4.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:9: Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...umberline <MODELE_1>}{2}{subsubsection*.17}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:9: Extra }, or forgotten $.
+<argument> ...linkstart {\nonumberline <MODELE_1>}
+                                                  \Hy@toclinkend \nobreak {\...
+l.9 ...umberline <MODELE_1>}{2}{subsubsection*.17}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:9: Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...umberline <MODELE_1>}{2}{subsubsection*.17}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:9: Missing } inserted.
+<inserted text> 
+                }
+l.9 ...umberline <MODELE_1>}{2}{subsubsection*.17}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:10: Missing $ inserted.
+<inserted text> 
+                $
+l.10 ...mberline <MODELE_2>}{2}{subsubsection*.19}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:10: Extra }, or forgotten $.
+<argument> ...linkstart {\nonumberline <MODELE_2>}
+                                                  \Hy@toclinkend \nobreak {\...
+l.10 ...mberline <MODELE_2>}{2}{subsubsection*.19}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:10: Missing $ inserted.
+<inserted text> 
+                $
+l.10 ...mberline <MODELE_2>}{2}{subsubsection*.19}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:10: Missing } inserted.
+<inserted text> 
+                }
+l.10 ...mberline <MODELE_2>}{2}{subsubsection*.19}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:11: Missing $ inserted.
+<inserted text> 
+                $
+l.11 ...mberline <MODELE_N>}{2}{subsubsection*.21}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:11: Extra }, or forgotten $.
+<argument> ...linkstart {\nonumberline <MODELE_N>}
+                                                  \Hy@toclinkend \nobreak {\...
+l.11 ...mberline <MODELE_N>}{2}{subsubsection*.21}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:11: Missing $ inserted.
+<inserted text> 
+                $
+l.11 ...mberline <MODELE_N>}{2}{subsubsection*.21}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:11: Missing } inserted.
+<inserted text> 
+                }
+l.11 ...mberline <MODELE_N>}{2}{subsubsection*.21}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:13: Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...line <NOM_GRAPHIQUE_1>}{2}{subsection*.25}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:13: Extra }, or forgotten $.
+<argument> ...rt {\nonumberline <NOM_GRAPHIQUE_1>}
+                                                  \Hy@toclinkend \nobreak {\...
+l.13 ...line <NOM_GRAPHIQUE_1>}{2}{subsection*.25}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:13: Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...line <NOM_GRAPHIQUE_1>}{2}{subsection*.25}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:13: Missing } inserted.
+<inserted text> 
+                }
+l.13 ...line <NOM_GRAPHIQUE_1>}{2}{subsection*.25}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:15: Missing $ inserted.
+<inserted text> 
+                $
+l.15 ...line <NOM_GRAPHIQUE_2>}{3}{subsection*.29}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:15: Extra }, or forgotten $.
+<argument> ...rt {\nonumberline <NOM_GRAPHIQUE_2>}
+                                                  \Hy@toclinkend \nobreak {\...
+l.15 ...line <NOM_GRAPHIQUE_2>}{3}{subsection*.29}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:15: Missing $ inserted.
+<inserted text> 
+                $
+l.15 ...line <NOM_GRAPHIQUE_2>}{3}{subsection*.29}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:15: Missing } inserted.
+<inserted text> 
+                }
+l.15 ...line <NOM_GRAPHIQUE_2>}{3}{subsection*.29}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:17: Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...line <NOM_GRAPHIQUE_N>}{3}{subsection*.33}
+                                                  %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:17: Extra }, or forgotten $.
+<argument> ...rt {\nonumberline <NOM_GRAPHIQUE_N>}
+                                                  \Hy@toclinkend \nobreak {\...
+l.17 ...line <NOM_GRAPHIQUE_N>}{3}{subsection*.33}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:17: Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...line <NOM_GRAPHIQUE_N>}{3}{subsection*.33}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.toc:17: Missing } inserted.
+<inserted text> 
+                }
+l.17 ...line <NOM_GRAPHIQUE_N>}{3}{subsection*.33}
+                                                  %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
@@ -694,413 +947,719 @@ No file report.toc.
 [1
 
 
-{C:/Users/utilisateur/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+{C:/Users/utilisateur/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:61: Missing $ inserted.
+<inserted text> 
+                $
+l.61         <EXPLICATION_
+                          CHOIX_SUJET_JEU_DONNÉES>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 61.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:62: Missing $ inserted.
+<inserted text> 
+                $
+l.62 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:71: Missing $ inserted.
+<inserted text> 
+                $
+l.71             <EXPLICATION_
+                              NETTOYAGE_DONNÉES>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 71.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:72: Missing $ inserted.
+<inserted text> 
+                $
+l.72 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:75: Missing $ inserted.
+<inserted text> 
+                $
+l.75 ...             \item \textbf{<NOM_VARIABLE>}
+                                                   : <DESCRIPTION_VARIABLE>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
-
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 77.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 77.
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:75: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.75 ...             \item \textbf{<NOM_VARIABLE>}
+                                                   : <DESCRIPTION_VARIABLE>
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
 
-LaTeX Warning: File `images/exemple_entree.png' not found on input line 103.
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:76: LaTeX Error: Command \end{itemize} invalid in math mode.
 
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:103: Package pdftex.def Error: File `images/exemple_entree.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 ...h=1\textwidth]{images/exemple_entree.png}
-                                                  
+l.76                 \end{itemize}
+                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 103.
-(C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:76: Missing $ inserted.
+<inserted text> 
+                $
+l.76                 \end{itemize}
+                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:76: Missing } inserted.
+<inserted text> 
+                }
+l.76                 \end{itemize}
+                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:80: Missing $ inserted.
+<inserted text> 
+                $
+l.80 ...             \item \textbf{<NOM_VARIABLE>}
+                                                   : <DESCRIPTION_VARIABLE>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:80: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.80 ...             \item \textbf{<NOM_VARIABLE>}
+                                                   : <DESCRIPTION_VARIABLE>
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:81: LaTeX Error: Command \end{itemize} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81                 \end{itemize}
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:81: Missing $ inserted.
+<inserted text> 
+                $
+l.81                 \end{itemize}
+                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:81: Missing } inserted.
+<inserted text> 
+                }
+l.81                 \end{itemize}
+                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:84: Missing $ inserted.
+<inserted text> 
+                $
+l.84             <EXPLICATION_
+                              PRÉPARATION_DONNÉES>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 84.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 84.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:85: Missing $ inserted.
+<inserted text> 
+                $
+l.85 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:91: Missing $ inserted.
+<inserted text> 
+                $
+l.91         <EXPLICATION_
+                          MISE_EN_OEUVRE_MODÈLE_DÉCISIONNEL>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 91.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:92: Missing $ inserted.
+<inserted text> 
+                $
+l.92 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:94: Missing $ inserted.
+<inserted text> 
+                $
+l.94             <EXPLICATION_
+                              CATÉGORIE>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 94.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:95: Missing $ inserted.
+<inserted text> 
+                $
+l.95 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:97: Missing $ inserted.
+<inserted text> 
+                $
+l.97             \subsubsection{<MODELE_1>}
+                                           
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:97: Extra }, or forgotten $.
+\sectionlinesformat ...@hangfrom {\hskip #2#3}{#4}
+                                                  
+l.97             \subsubsection{<MODELE_1>}
+                                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:97: Missing $ inserted.
+<inserted text> 
+                $
+l.97             \subsubsection{<MODELE_1>}
+                                           
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:97: Missing } inserted.
+<inserted text> 
+                }
+l.97             \subsubsection{<MODELE_1>}
+                                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 97.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:98: Missing $ inserted.
+<inserted text> 
+                $
+l.98                 <EXPLICATION_
+                                  MODELE_1>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:99: Missing $ inserted.
+<inserted text> 
+                $
+l.99 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:100: Missing $ inserted.
+<inserted text> 
+                $
+l.100             \subsubsection{<MODELE_2>}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:100: Extra }, or forgotten $.
+\sectionlinesformat ...@hangfrom {\hskip #2#3}{#4}
+                                                  
+l.100             \subsubsection{<MODELE_2>}
+                                            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:100: Missing $ inserted.
+<inserted text> 
+                $
+l.100             \subsubsection{<MODELE_2>}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:100: Missing } inserted.
+<inserted text> 
+                }
+l.100             \subsubsection{<MODELE_2>}
+                                            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 100.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101                 <EXPLICATION_
+                                   MODELE_2>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:102: Missing $ inserted.
+<inserted text> 
+                $
+l.102 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:103: Missing $ inserted.
+<inserted text> 
+                $
+l.103             \subsubsection{<MODELE_N>}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:103: Extra }, or forgotten $.
+\sectionlinesformat ...@hangfrom {\hskip #2#3}{#4}
+                                                  
+l.103             \subsubsection{<MODELE_N>}
+                                            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:103: Missing $ inserted.
+<inserted text> 
+                $
+l.103             \subsubsection{<MODELE_N>}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:103: Missing } inserted.
+<inserted text> 
+                }
+l.103             \subsubsection{<MODELE_N>}
+                                            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 103.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:104: Missing $ inserted.
+<inserted text> 
+                $
+l.104                 <EXPLICATION_
+                                   MODELE_N>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:105: Missing $ inserted.
+<inserted text> 
+                $
+l.105 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:113: Missing $ inserted.
+<inserted text> 
+                $
+l.113         \subsection{<NOM_GRAPHIQUE_1>}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 113.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 113.
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:113: Extra }, or forgotten $.
+\sectionlinesformat ...@hangfrom {\hskip #2#3}{#4}
+                                                  
+l.113         \subsection{<NOM_GRAPHIQUE_1>}
+                                            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:113: Missing $ inserted.
+<inserted text> 
+                $
+l.113         \subsection{<NOM_GRAPHIQUE_1>}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:113: Missing } inserted.
+<inserted text> 
+                }
+l.113         \subsection{<NOM_GRAPHIQUE_1>}
+                                            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 113.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:115: Missing $ inserted.
+<inserted text> 
+                $
+l.115                 <INTERPRETATION_
+                                      GRAPHIQUE_1>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:116: Missing $ inserted.
+<inserted text> 
+                $
+l.116 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:118: LaTeX Error: File `<LIEN_IMAGE_GRAPHIQUE_1>' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ...th=1\textwidth]{<LIEN_IMAGE_GRAPHIQUE_1>}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 104.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 119.
 (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [2{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:122: Missing $ inserted.
+<inserted text> 
+                $
+l.122         \subsection{<NOM_GRAPHIQUE_2>}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
- []
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:122: Extra }, or forgotten $.
+\sectionlinesformat ...@hangfrom {\hskip #2#3}{#4}
+                                                  
+l.122         \subsection{<NOM_GRAPHIQUE_2>}
+                                            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:122: Missing $ inserted.
+<inserted text> 
+                $
+l.122         \subsection{<NOM_GRAPHIQUE_2>}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:122: Missing } inserted.
+<inserted text> 
+                }
+l.122         \subsection{<NOM_GRAPHIQUE_2>}
+                                            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
-
- []
-
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 122.
 
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 122.
 
- []
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:124: Missing $ inserted.
+<inserted text> 
+                $
+l.124                 <INTERPRETATION_
+                                      GRAPHIQUE_2>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:125: Missing $ inserted.
+<inserted text> 
+                $
+l.125 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:127: LaTeX Error: File `<LIEN_IMAGE_GRAPHIQUE_2>' not found.
 
- []
-
-
-LaTeX Warning: File `images/cercle_de_corrélation.png' not found on input line 136.
-
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:136: Package pdftex.def Error: File `images/cercle_de_corrélation.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 ...width]{images/cercle_de_corrélation.png}
+l.127 ...th=1\textwidth]{<LIEN_IMAGE_GRAPHIQUE_2>}
                                                   
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:131: Missing $ inserted.
+<inserted text> 
+                $
+l.131         \subsection{<NOM_GRAPHIQUE_N>}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:131: Extra }, or forgotten $.
+\sectionlinesformat ...@hangfrom {\hskip #2#3}{#4}
+                                                  
+l.131         \subsection{<NOM_GRAPHIQUE_N>}
+                                            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:131: Missing $ inserted.
+<inserted text> 
+                $
+l.131         \subsection{<NOM_GRAPHIQUE_N>}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:131: Missing } inserted.
+<inserted text> 
+                }
+l.131         \subsection{<NOM_GRAPHIQUE_N>}
+                                            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 141--144
-
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 131.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--144
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 131.
 
- []
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:133: Missing $ inserted.
+<inserted text> 
+                $
+l.133                 <INTERPRETATION_
+                                      GRAPHIQUE_N>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--144
-
- []
-
-
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
-
- []
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:134: Missing $ inserted.
+<inserted text> 
+                $
+l.134 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: File `images/graphique_des_individus.png' not found on input line 156.
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:136: LaTeX Error: File `<LIEN_IMAGE_GRAPHIQUE_N>' not found.
 
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:156: Package pdftex.def Error: File `images/graphique_des_individus.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156 ...idth]{images/graphique_des_individus.png}
+l.136 ...th=1\textwidth]{<LIEN_IMAGE_GRAPHIQUE_N>}
                                                   
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 161--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--164
-
- []
-
-
-
-[7]
-
-LaTeX Warning: File `images/graphique_des_individus_positions.png' not found on input line 166.
-
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:166: Package pdftex.def Error: File `images/graphique_des_individus_positions.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 ...es/graphique_des_individus_positions.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
-
- []
-
-
-LaTeX Warning: File `images/graphique_des_individus_championnats.png' not found on input line 175.
-
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:175: Package pdftex.def Error: File `images/graphique_des_individus_championnats.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 ...graphique_des_individus_championnats.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--191
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--191
-
- []
-
-
-
-[9]
-
-LaTeX Warning: File `images/valeurs_propres_ACP.png' not found on input line 193.
-
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:193: Package pdftex.def Error: File `images/valeurs_propres_ACP.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.193 ...extwidth]{images/valeurs_propres_ACP.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
-
- []
-
-
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--221
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--221
-
- []
-
-
-LaTeX Warning: File `images/graphique_AFC_buts.png' not found on input line 223.
-
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:223: Package pdftex.def Error: File `images/graphique_AFC_buts.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.223 ...textwidth]{images/graphique_AFC_buts.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
-
- []
-
-
-LaTeX Warning: File `images/graphique_AFC_passes.png' not found on input line 232.
-
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:232: Package pdftex.def Error: File `images/graphique_AFC_passes.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.232 ...xtwidth]{images/graphique_AFC_passes.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 237--239
-
- []
-
-
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
-
- []
-
-
-LaTeX Warning: File `images/graphique_ACM_ages.png' not found on input line 258.
-
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:258: Package pdftex.def Error: File `images/graphique_ACM_ages.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.258 ...textwidth]{images/graphique_ACM_ages.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--275
-
- []
-
-
-
-[15]
-
-[16] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.aux)
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:148: Missing $ inserted.
+<inserted text> 
+                $
+l.148             <INTERPRÉTATION_
+                                   GENERALE_RESULTATS>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:149: Missing $ inserted.
+<inserted text> 
+                $
+l.149 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:152: Missing $ inserted.
+<inserted text> 
+                $
+l.152                 <AVANTAGES_
+                                 APPROCHE>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:153: Missing $ inserted.
+<inserted text> 
+                $
+l.153 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:155: Missing $ inserted.
+<inserted text> 
+                $
+l.155                 <LIMITES_
+                               APPROCHE>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:156: Missing $ inserted.
+<inserted text> 
+                $
+l.156 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:158: Missing $ inserted.
+<inserted text> 
+                $
+l.158             <RECOMMANDATIONS_
+                                   APPUYEE_DONNEES>
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:159: Missing $ inserted.
+<inserted text> 
+                $
+l.159 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+
+[3] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19064 strings out of 473523
- 343311 string characters out of 5711726
- 923926 words of memory out of 5000000
- 41837 multiletter control sequences out of 15000+600000
- 623924 words of font info for 141 fonts, out of 8000000 for 9000
+ 18799 strings out of 473523
+ 334276 string characters out of 5711726
+ 927928 words of memory out of 5000000
+ 41636 multiletter control sequences out of 15000+600000
+ 629786 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,107p,10997b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.pdf" (16 pages, 249156 bytes).
+<C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.pdf" (3 pages, 238371 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 39665 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 243 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 43201 words of extra memory for PDF output out of 51595 (max. 10000000)
 
