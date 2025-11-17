@@ -1,26 +1,14 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{\nonumberline Choix du sujet et du jeu de données}{2}{section*.3}%
-\contentsline {section}{\nonumberline Nettoyage et préparation des données}{2}{section*.5}%
-\contentsline {subsection}{\nonumberline Nettoyage des données}{2}{subsection*.7}%
-\contentsline {subsection}{\nonumberline Préparation des données}{2}{subsection*.9}%
-\contentsline {section}{\nonumberline Mise en oeuvre du modèle décisionnel}{2}{section*.11}%
-\contentsline {subsection}{\nonumberline Catégorie choisie}{2}{subsection*.13}%
-\contentsline {subsection}{\nonumberline Modèles utilisés}{2}{subsection*.15}%
-\contentsline {subsubsection}{\nonumberline <MODELE_1>}{2}{subsubsection*.17}%
-\contentsline {subsubsection}{\nonumberline <MODELE_2>}{2}{subsubsection*.19}%
-\contentsline {subsubsection}{\nonumberline <MODELE_N>}{2}{subsubsection*.21}%
-\contentsline {section}{\nonumberline Analyse et visualisation}{2}{section*.23}%
-\contentsline {subsection}{\nonumberline <NOM_GRAPHIQUE_1>}{2}{subsection*.25}%
-\contentsline {subsubsection}{\nonumberline Interprétation}{2}{subsubsection*.27}%
-\contentsline {subsection}{\nonumberline <NOM_GRAPHIQUE_2>}{3}{subsection*.29}%
-\contentsline {subsubsection}{\nonumberline Interprétation}{3}{subsubsection*.31}%
-\contentsline {subsection}{\nonumberline <NOM_GRAPHIQUE_N>}{3}{subsection*.33}%
-\contentsline {subsubsection}{\nonumberline Interprétation}{3}{subsubsection*.35}%
-\contentsline {section}{\nonumberline Interprétation et prise de décision}{3}{section*.37}%
-\contentsline {subsection}{\nonumberline Interprétation générale des résultats}{3}{subsection*.39}%
-\contentsline {subsection}{\nonumberline Avantages et limites de notre approche}{3}{subsection*.41}%
-\contentsline {subsubsection}{\nonumberline Avantages}{3}{subsubsection*.43}%
-\contentsline {subsubsection}{\nonumberline Limites}{3}{subsubsection*.45}%
-\contentsline {subsection}{\nonumberline Recommandations après analyse}{3}{subsection*.47}%
-\contentsline {section}{\nonumberline Conclusion}{3}{section*.49}%
+\contentsline {section}{\nonumberline Contexte et question de recherche}{2}{section*.3}%
+\contentsline {subsection}{\nonumberline Contexte}{2}{subsection*.5}%
+\contentsline {subsection}{\nonumberline Question de recherche}{2}{subsection*.7}%
+\contentsline {section}{\nonumberline Choix du modèle et justification}{2}{section*.9}%
+\contentsline {section}{\nonumberline Méthodologie et traitement des données}{2}{section*.11}%
+\contentsline {subsection}{\nonumberline Méthodologie abordée}{2}{subsection*.13}%
+\contentsline {subsection}{\nonumberline Traitement des données}{2}{subsection*.15}%
+\contentsline {section}{\nonumberline Résultats et interprétation}{2}{section*.17}%
+\contentsline {section}{\nonumberline Limites et pistes d'amélioration}{2}{section*.19}%
+\contentsline {subsection}{\nonumberline Limites}{2}{subsection*.21}%
+\contentsline {subsection}{\nonumberline Piste d'amélioration}{2}{subsection*.23}%
+\contentsline {section}{\nonumberline Conclusion}{2}{section*.25}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
