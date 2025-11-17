@@ -76,7 +76,7 @@ plt.subplot(1, 2, 1)
 sns.violinplot(data=df, x='Music effects', y='Age', 
                hue='Music effects',
                order=['Worsen', 'No effect', 'Improve'],
-               palette=['#e74c3c', '#95a5a6', '#2ecc71'])
+               palette=['#95a5a6', '#2ecc71', '#e74c3c',])
 plt.title('Distribution d\'Âge par Effet de la Musique', fontsize=12, fontweight='bold')
 plt.xlabel('Effet de la Musique')
 plt.ylabel('Âge')
