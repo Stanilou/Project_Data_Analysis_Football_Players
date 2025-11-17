@@ -124,22 +124,6 @@ plt.xticks([0, 1], ['Non', 'Oui'], rotation=0)
 plt.tight_layout()
 plt.show()
 
-# 7. MATRICE DE CORRÉLATION DES VARIABLES NUMÉRIQUES
-plt.figure(figsize=(10, 8))
-
-# Sélection des variables numériques
-numeric_vars = ['Age', 'Hours per day', 'BPM', 'Anxiety', 'Depression', 'Insomnia', 'OCD', 'effects_numeric']
-correlation_matrix = df[numeric_vars].corr()
-
-# Masque pour le triangle supérieur
-mask = np.triu(np.ones_like(correlation_matrix, dtype=bool))
-
-sns.heatmap(correlation_matrix, mask=mask, annot=True, cmap='coolwarm', center=0,
-           square=True, fmt='.2f', cbar_kws={'shrink': .8})
-plt.title('Matrice de Corrélation des Variables Numériques', fontsize=14, fontweight='bold')
-plt.tight_layout()
-plt.show()
-
 # CALCUL DES KPIs
 print("="*50)
 print("INDICATEURS CLÉS (KPIs)")
