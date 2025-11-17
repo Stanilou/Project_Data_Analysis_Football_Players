@@ -41,6 +41,7 @@ df['effects_numeric'] = df['Music effects'].map(effects_mapping)
 
 # Boxplot des heures d'écoute par effet
 sns.boxplot(data=df, x='Music effects', y='Hours per day', 
+            hue='Music effects',
             order=['Worsen', 'No effect', 'Improve'],
             palette=['#e74c3c', '#95a5a6', '#2ecc71'])
 plt.title('Heures d\'Écoute Quotidiennes\npar Effet sur la Santé Mentale', 
@@ -73,6 +74,7 @@ plt.figure(figsize=(12, 5))
 plt.subplot(1, 2, 1)
 # Distribution d'âge par effet
 sns.violinplot(data=df, x='Music effects', y='Age', 
+               hue='Music effects',
                order=['Worsen', 'No effect', 'Improve'],
                palette=['#e74c3c', '#95a5a6', '#2ecc71'])
 plt.title('Distribution d\'Âge par Effet de la Musique', fontsize=12, fontweight='bold')
@@ -152,7 +154,7 @@ hours_correlation = df['Hours per day'].corr(df['effects_numeric'])
 print(f"\n4. Corrélation temps d'écoute/effet: {hours_correlation:.3f}")
 
 # KPI 5: Groupes d'âge les plus sensibles
-age_group_improve = df.groupby('age_group')['effects_numeric'].mean().sort_values(ascending=False)
+age_group_improve = df.groupby('age_group', observed=False)['effects_numeric'].mean().sort_values(ascending=False)
 print(f"\n5. Groupes d'âge les plus sensibles (score moyen):")
 for age_group, score in age_group_improve.head(3).items():
     print(f"   - {age_group}: {score:.2f}")
