@@ -741,18 +741,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--96
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--118
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
 
 
-[3] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.aux)
+[3]
+
+[4] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -761,17 +763,17 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18652 strings out of 473523
- 330248 string characters out of 5711726
+ 18655 strings out of 473523
+ 330274 string characters out of 5711726
  924928 words of memory out of 5000000
  41504 multiletter control sequences out of 15000+600000
- 617121 words of font info for 128 fonts, out of 8000000 for 9000
+ 617212 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,107p,10997b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.pdf" (3 pages, 141517 bytes).
+Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.pdf" (4 pages, 145143 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
  36961 words of extra memory for PDF output out of 42996 (max. 10000000)
 
