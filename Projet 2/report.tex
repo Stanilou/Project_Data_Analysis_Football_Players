@@ -42,7 +42,7 @@
 %%%%%%%%%%                        PAGE DE PRÉSENTATION                       %%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{RAPPORT D'ANALYSE DÉCISIONNELLE}
+\title{RAPPORT D'ANALYSE\\DÉCISIONNELLE}
 \author{Stanislas ROLLAND - Pierre LECHAT}
 \date{Novembre 2025}
 
@@ -59,10 +59,18 @@
 
     \section{Contexte et question de recherche}
         \subsection{Contexte}
-            <EXPLICATION_CONTEXTE>
-
-        \subsection{Question de recherche}
-            <EXPLICATION_QUESTION_RECHERCHE>
+            Dans le cadre de notre projet d’analyse décisionnelle, nous avons choisi de nous concentrer sur le domaine de la santé, et plus particulièrement sur la santé mentale et les effets de la musique sur celle-ci. La musique est fréquemment utilisée comme un outil de relaxation et de gestion du stress, mais son influence exacte sur la santé mentale reste encore en grande partie méconnue. Ce sujet a retenu notre attention car il combine notre passion pour la musique et notre souhait de contribuer à une meilleure compréhension des facteurs qui impactent la santé mentale.\\\\
+            Après avoir analysé plusieurs jeux de données, nous avons sélectionné un ensemble provenant de la plateforme Kaggle intitulé \href{https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results}{\underline{"Music and Mental Health Survey Results"}}. Ce jeu de données regroupe des informations sur les habitudes d’écoute musicale des individus ainsi que des indicateurs liés à leur état mental, tels que les niveaux de stress, d’anxiété et de dépression. Ces données nous ont permis de structurer notre réflexion autour de la problématique suivante : "Comment les préférences musicales peuvent-elles refléter ou influencer notre santé mentale ?"
+        
+            \subsection{Question de recherche}
+            La question centrale de notre analyse est de déterminer dans quelle mesure les préférences musicales des individus peuvent être utilisées pour prédire ou comprendre leur état de santé mentale. Plus précisément, nous cherchons à répondre aux questions suivantes :\\
+            
+            \begin{itemize}
+                \item Quel est l'effet global de la musique sur la santé mentale ?\\
+                \item Existe-t-il des genres musicaux spécifiques qui sont plus bénéfiques ou nuisibles pour la santé mentale ?\\
+                \item La pratique musicale par les instrumentalites et les compositeurs a-t-elle un impact positif sur leur bien-être mental ?\\
+                \item Existe-t-il des différences significatives dans l'impact de la musique sur la santé mentale en fonction de variables démographiques telles que l'âge ou le temps d'écoute quotidien ?
+            \end{itemize}
 
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -70,7 +78,8 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Choix du modèle et justification}
-        <EXPLICATION_CHOIX_MODELE>
+        Dans le cadre de ce projet d’analyse décisionnelle, nous avons choisi d’utiliser un modèle appartenant à la catégorie "Probabilités / Risque", à savoir le test du Chi² d’indépendance. Ce modèle statistique est particulièrement adapté à notre problématique, car il permet de déterminer si deux variables qualitatives sont statistiquement liées. Pour notre étude, il permet de vérifier s’il existe une association entre les préférences musicales des individus (leur genre musical favori) et les effets de la musique sur leur santé mentale (une amélioration, une absence d’effet ou une aggravation).\\\\
+        En complément de ce modèle décisionnel, nous avons également mobilisé différents outils de statistiques descriptives tels que l’analyse de tendance, les distributions, les comparaisons de moyennes ou encore les corrélations. Ces éléments nous permettent de comprendre la structure globale du jeu de données, d’identifier des tendances majeures et de préparer l’interprétation du modèle principal.
 
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -78,12 +87,11 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Méthodologie et traitement des données}
-
         \subsection{Méthodologie abordée}
-            <EXPLICATION_METHODOLOGIE>
+            %<EXPLICATION_METHODOLOGIE>
 
         \subsection{Traitement des données}
-            <EXPLICATION_TRAITEMENT>
+            %<EXPLICATION_TRAITEMENT>
 
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -91,7 +99,7 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Résultats et interprétation}
-        <EXPLICATION_RESULTATS>
+        %<EXPLICATION_RESULTATS>
   
                 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -99,12 +107,13 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
     \section{Limites et pistes d'amélioration}
-
         \subsection{Limites}
-            <EXPLICATION_LIMITES>
+            Plusieurs limites doivent être soulignées, dans un premier lieu, le jeu de données provient d’un questionnaire auto-déclaratif ce qui signifie que les réponses peuvent être biaisées par la subjectivité ou la perception personnelle. Les variables sont également majoritairement qualitatives ce qui limite l’utilisation de modèles prédictifs ou d’analyses plus avancées.\\\\
+            De plus, le test du Chi² ne permet d’étudier que la dépendance entre deux variables qualitatives. Il n’indique pas la force de la relation ni sa nature. Les données, quant à elles, ne permettent pas d’établir un lien de causalité entre les variables, mais uniquement des associations.
 
         \subsection{Piste d'amélioration}
-            <EXPLICATION_PISTES_AMELIORATION>
+            Plusieurs améliorations pourraient être envisagées, l'utilisation d’un jeu de données plus large et plus varié permettrait d’accroître la fiabilité des analyses. Il serait également intéressant de compléter l’étude avec l'utilisation de modèles prédictifs (régression logistique, arbres de décision etc) ou des méthodes de clustering afin d’identifier des profils parmis les auditeurs.\\\\
+            On pourrait également envisager une approche temporelle basée sur la mesure de l’évolution de l’état mental en fonction de l’exposition musicale. Cela pourrait apporter une perspective plus dynamique sur l’impact de la musique.
             
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -112,7 +121,7 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \section{Conclusion}
-        <CONCLUSION>
+        %<CONCLUSION>
 
 
 \end{document}

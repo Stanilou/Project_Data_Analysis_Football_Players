@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.17)  17 NOV 2025 12:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.17)  19 NOV 2025 10:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -701,140 +701,53 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 {C:/Users/utilisateur/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:62: Missing $ inserted.
-<inserted text> 
-                $
-l.62             <EXPLICATION_
-                              CONTEXTE>
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:63: Missing $ inserted.
-<inserted text> 
-                $
-l.63 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:65: Missing $ inserted.
-<inserted text> 
-                $
-l.65             <EXPLICATION_
-                              QUESTION_RECHERCHE>
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:66: Missing $ inserted.
-<inserted text> 
-                $
-l.66 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:73: Missing $ inserted.
-<inserted text> 
-                $
-l.73         <EXPLICATION_
-                          CHOIX_MODELE>
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:74: Missing $ inserted.
-<inserted text> 
-                $
-l.74 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:83: Missing $ inserted.
-<inserted text> 
-                $
-l.83             <EXPLICATION_
-                              METHODOLOGIE>
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:84: Missing $ inserted.
-<inserted text> 
-                $
-l.84 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:86: Missing $ inserted.
-<inserted text> 
-                $
-l.86             <EXPLICATION_
-                              TRAITEMENT>
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:87: Missing $ inserted.
-<inserted text> 
-                $
-l.87 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:94: Missing $ inserted.
-<inserted text> 
-                $
-l.94         <EXPLICATION_
-                          RESULTATS>
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:95: Missing $ inserted.
-<inserted text> 
-                $
-l.95 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:104: Missing $ inserted.
-<inserted text> 
-                $
-l.104             <EXPLICATION_
-                               LIMITES>
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:105: Missing $ inserted.
-<inserted text> 
-                $
-l.105 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:107: Missing $ inserted.
-<inserted text> 
-                $
-l.107             <EXPLICATION_
-                               PISTES_AMELIORATION>
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/utilisateur/Documents/Projet R5.C.08/Project_Data_Analysis_Football_Players/Projet 2/report.tex:108: Missing $ inserted.
-<inserted text> 
-                $
-l.108 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 118.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 81.
 (C:\Users\utilisateur\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.aux)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+
+
+[2{C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+
+ []
+
+
+
+[3] (c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -843,17 +756,17 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18608 strings out of 473523
- 329725 string characters out of 5711726
- 920928 words of memory out of 5000000
- 41495 multiletter control sequences out of 15000+600000
- 615233 words of font info for 110 fonts, out of 8000000 for 9000
+ 18646 strings out of 473523
+ 330190 string characters out of 5711726
+ 925928 words of memory out of 5000000
+ 41504 multiletter control sequences out of 15000+600000
+ 616848 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,107p,10997b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.pdf" (2 pages, 144508 bytes).
+<C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/utilisateur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on "c:\Users\utilisateur\Documents\Projet R5.C.08\Project_Data_Analysis_Football_Players\Projet 2\build\report.pdf" (3 pages, 140405 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 34913 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 36961 words of extra memory for PDF output out of 42996 (max. 10000000)
 
