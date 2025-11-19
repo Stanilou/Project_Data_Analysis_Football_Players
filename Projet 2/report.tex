@@ -88,10 +88,11 @@
 
     \section{Méthodologie et traitement des données}
         \subsection{Méthodologie abordée}
-            %<EXPLICATION_METHODOLOGIE>
+            Notre méthodologie s'articule autour de plusieurs étapes clés. Nous avons commencé par analyser les liens 
 
         \subsection{Traitement des données}
-            %<EXPLICATION_TRAITEMENT>
+            Avant de pouvoir effectuer les analyses, nous avons dû procéder à un nettoyage des données. En effet, nous avons supprimé plusieurs colonnes car elles ne contribuaient pas à l’objectif analytique (par exemple "Timestamps", "Permissions" ou "Primary streaming service"). L’absence d’information étant également un problème pour la réalisation de nos analyses, nous avons retiré toutes les lignes contenant des valeurs manquantes. Nous avons également ajouté une colonne "Id" pour identifier chaque individu de manière unique et donc remplacer la colonne "Timestamps".\\\\
+            Dans un second temps, plusieurs transformations ont été réalisées pour faciliter l'analyse comme la création de nouveaux attributs tels que les groupes d’âge, la normalisation de tableaux croisés etc.
 
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -108,7 +109,7 @@
         
     \section{Limites et pistes d'amélioration}
         \subsection{Limites}
-            Plusieurs limites doivent être soulignées, dans un premier lieu, le jeu de données provient d’un questionnaire auto-déclaratif ce qui signifie que les réponses peuvent être biaisées par la subjectivité ou la perception personnelle. Les variables sont également majoritairement qualitatives ce qui limite l’utilisation de modèles prédictifs ou d’analyses plus avancées.\\\\
+            Plusieurs limites doivent être soulignées, dans un premier lieu, le jeu de données provient d’un questionnaire auto-déclaratif ce qui signifie que les réponses peuvent être "biaisées" par la subjectivité ou la perception personnelle. Les variables sont également majoritairement qualitatives ce qui limite l’utilisation de modèles prédictifs ou d’analyses plus avancées.\\\\
             De plus, le test du Chi² ne permet d’étudier que la dépendance entre deux variables qualitatives. Il n’indique pas la force de la relation ni sa nature. Les données, quant à elles, ne permettent pas d’établir un lien de causalité entre les variables, mais uniquement des associations.
 
         \subsection{Piste d'amélioration}
