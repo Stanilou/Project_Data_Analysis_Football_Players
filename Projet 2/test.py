@@ -17,8 +17,7 @@ effects_dist = df['Music effects'].value_counts()
 colors = ['#2ecc71', '#95a5a6', '#e74c3c']  # Vert pour Improve, Rouge pour Worsen, Gris pour No effect
 
 plt.subplot(2, 2, 1)
-plt.pie(effects_dist.values, labels=effects_dist.index, autopct='%1.1f%%', 
-        colors=colors, startangle=90)
+plt.pie(effects_dist.values, labels=effects_dist.index, autopct='%1.1f%%', colors=colors, startangle=90)
 plt.title('Distribution des Effets de la Musique\nsur la Santé Mentale', fontsize=12, fontweight='bold')
 
 # 2. EFFETS PAR GENRE MUSICAL FAVORI
@@ -26,8 +25,7 @@ plt.subplot(2, 2, 2)
 genre_effects = pd.crosstab(df['Fav genre'], df['Music effects'], normalize='index') * 100
 genre_effects = genre_effects.sort_values('Improve', ascending=False).head(10)
 
-genre_effects.plot(kind='bar', stacked=True, ax=plt.gca(), 
-                  color=['#2ecc71', '#95a5a6', '#e74c3c'])
+genre_effects.plot(kind='bar', stacked=True, ax=plt.gca(), color=['#2ecc71', '#95a5a6', '#e74c3c'])
 plt.title('Effets par Genre Musical Favori (Top 10)', fontsize=12, fontweight='bold')
 plt.xlabel('Genre Musical')
 plt.ylabel('Pourcentage (%)')
@@ -126,6 +124,22 @@ plt.xticks([0, 1], ['Non', 'Oui'], rotation=0)
 plt.tight_layout()
 plt.show()
 
+# 7. MATRICE DE CORRÉLATION DES VARIABLES NUMÉRIQUES
+plt.figure(figsize=(10, 8))
+
+# Sélection des variables numériques
+numeric_vars = ['Age', 'Hours per day', 'BPM', 'Anxiety', 'Depression', 'Insomnia', 'OCD', 'effects_numeric']
+correlation_matrix = df[numeric_vars].corr()
+
+# Masque pour le triangle supérieur
+mask = np.triu(np.ones_like(correlation_matrix, dtype=bool))
+
+sns.heatmap(correlation_matrix, mask=mask, annot=True, cmap='coolwarm', center=0,
+           square=True, fmt='.2f', cbar_kws={'shrink': .8})
+plt.title('Matrice de Corrélation des Variables Numériques', fontsize=14, fontweight='bold')
+plt.tight_layout()
+plt.show()
+
 # CALCUL DES KPIs
 print("="*50)
 print("INDICATEURS CLÉS (KPIs)")
@@ -159,14 +173,38 @@ print(f"\n5. Groupes d'âge les plus sensibles (score moyen):")
 for age_group, score in age_group_improve.head(3).items():
     print(f"   - {age_group}: {score:.2f}")
 
-# TEST STATISTIQUE : Chi2 pour l'association genre/effet
-print(f"\n6. Test statistique (Chi2):")
-contingency_table = pd.crosstab(df['Fav genre'], df['Music effects'])
-chi2, p_value, dof, expected = stats.chi2_contingency(contingency_table)
-print(f"   - Test d'indépendance genre/effet: p-value = {p_value:.4f}")
-if p_value < 0.05:
-    print("     → Association significative entre le genre et l'effet")
-else:
-    print("     → Pas d'association significative")
-
+# 8. RECOMMANDATION PERSONNALISÉE BASÉE SUR L'ÂGE + LE GENRE
 print("\n" + "="*50)
+print("RECOMMANDATION PERSONNALISÉE")
+print("="*50)
+
+try:
+    user_age = int(input("Entrez votre âge : "))
+except ValueError:
+    print("Âge invalide. Fin du programme.")
+    exit()
+
+all_genres = sorted(df['Fav genre'].unique())
+print("\nGenres disponibles dans le dataset :")
+for g in all_genres:
+    print("   -", g)
+
+user_genre = input("Entrez votre genre musical favori (exactement comme dans le dataset) : ")
+
+# Filtre par âge ± 3 ans
+age_range = 3
+df_filtered = df[(df["Age"] >= user_age - age_range) & (df["Age"] <= user_age + age_range)]
+
+# Filtre aussi par genre musical
+df_filtered = df_filtered[df_filtered["Fav genre"].str.lower() == user_genre.lower()]
+
+print("\nAnalyse en cours...")
+
+if len(df_filtered) < 5:
+    print("Pas assez de données pour votre profil.")
+    exit()
+else:
+    improvement = (df_filtered["Music effects"] == "Improve").mean() * 100
+
+print(f"\nPour les personnes proches de {user_age} ans qui préfèrent le genre '{user_genre}':")
+print(f"Taux moyen d'amélioration : {improvement:.1f}%")
