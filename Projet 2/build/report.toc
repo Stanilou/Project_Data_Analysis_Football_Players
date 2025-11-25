@@ -7,8 +7,8 @@
 \contentsline {subsection}{\nonumberline Méthodologie abordée}{3}{subsection*.13}%
 \contentsline {subsection}{\nonumberline Traitement des données}{3}{subsection*.15}%
 \contentsline {section}{\nonumberline Résultats et interprétation}{3}{section*.17}%
-\contentsline {section}{\nonumberline Limites et pistes d'amélioration}{3}{section*.19}%
-\contentsline {subsection}{\nonumberline Limites}{3}{subsection*.21}%
+\contentsline {section}{\nonumberline Limites et pistes d'amélioration}{4}{section*.19}%
+\contentsline {subsection}{\nonumberline Limites}{4}{subsection*.21}%
 \contentsline {subsection}{\nonumberline Piste d'amélioration}{4}{subsection*.23}%
 \contentsline {section}{\nonumberline Conclusion}{4}{section*.25}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
