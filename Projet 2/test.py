@@ -41,7 +41,7 @@ df['effects_numeric'] = df['Music effects'].map(effects_mapping)
 sns.boxplot(data=df, x='Music effects', y='Hours per day', 
             hue='Music effects',
             order=['Worsen', 'No effect', 'Improve'],
-            palette=['#e74c3c', '#95a5a6', '#2ecc71'])
+            palette=['#95a5a6', '#2ecc71', '#e74c3c'])
 plt.title('Heures d\'Écoute Quotidiennes\npar Effet sur la Santé Mentale', 
           fontsize=12, fontweight='bold')
 plt.xlabel('Effet de la Musique')
